@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export BUN_INSTALL:/Users/kaos/\x2ebun
 SETUVAR Z_DATA_DIR:/Users/kaos/\x2elocal/share/z
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/kaos/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/kaos/\x2econfig/fish/completions/fisher\x2efish
