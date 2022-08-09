@@ -45,6 +45,7 @@ key_bindings:
   - { key: A, mods: Command, chars: "\x01" } # <Cmd-A> is tmux prefix
   - { key: C, mods: Command, chars: "\x03" } # <Cmd-C> for <C-C>
   - { key: D, mods: Command, chars: "\x04" }
+  - { key: E, mods: Command, chars: "\x05" }
   - { key: J, mods: Command, chars: "\x0a" }
   - { key: K, mods: Command, chars: "\x0b" }
   - { key: N, mods: Command, chars: "\x0e" }
