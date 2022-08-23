@@ -1,4 +1,5 @@
 local wezterm = require('wezterm')
+local act = wezterm.action
 
 return {
 	font = wezterm.font 'RobotoMono Nerd Font',
@@ -16,5 +17,95 @@ return {
 		right = '2cell',
 		top = '1cell',
 		bottom = '1cell',
+	},
+	keys = {
+		{
+			key = 'a',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'a',
+				mods = 'CTRL',
+			}
+		},
+		{
+			key = 'c',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'c',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'd',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'd',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'e',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'e',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'j',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'j',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'k',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'k',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'n',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'n',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'p',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'p',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'r',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'r',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'u',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'u',
+				mods = 'CTRL'
+			}
+		},
+		{
+			key = 'w',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'w',
+				mods = 'CTRL'
+			}
+		},
 	},
 }
