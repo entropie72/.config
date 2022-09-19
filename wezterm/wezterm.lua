@@ -112,5 +112,13 @@ return {
 				mods = 'CTRL'
 			}
 		},
+		{
+			key = 'Backspace',
+			mods = 'CMD',
+			action = act.SendKey {
+				key = 'u',
+				mods = 'CTRL'
+			}
+		},
 	},
 }
