@@ -16,12 +16,12 @@ return {
 	initial_cols = 250,
 	window_close_confirmation = 'NeverPrompt',
 	native_macos_fullscreen_mode = true,
-	scrollback_line = 4000,
+	scrollback_lines = 500,
 	window_padding = {
 		left = '2cell',
 		right = '2cell',
 		top = '1cell',
-		bottom = '1cell',
+		bottom = '0cell',
 	},
 	keys = {
 		{
