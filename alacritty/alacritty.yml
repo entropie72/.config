@@ -1,5 +1,5 @@
 import:
-  - ~/.config/alacritty/colors/dracula.yml
+  - ~/.config/alacritty/colors/carbonfox.yml
 
 window:
   position:
@@ -15,19 +15,20 @@ window:
 
 font:
   normal:
-    family: RobotoMono Nerd Font
+    family: "FiraCode Nerd Font"
+    # family: RobotoMono Nerd Font
     style: Regular
   bold:
-    family: RobotoMono Nerd Font
-    style: Bold
+    family: "FiraCode Nerd Font"
+    style: Semibold
   italic:
-    family: RobotoMono Nerd Font
+    # family: RobotoMono Nerd Font
+    family: "FiraCode Nerd Font"
     style: Italic
-  size: 12
+  size: 11
   offset:
     x: 1
-    y: 8
-  use_thin_strokes: true
+    y: 15
 
 scrolling:
   history: 10000
