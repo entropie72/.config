@@ -2,12 +2,12 @@ local wezterm = require('wezterm')
 local act = wezterm.action
 
 return {
-	font = wezterm.font('FiraCode Nerd Font', {
-		-- weight = '',
+	font = wezterm.font('BlexMono Nerd Font', {
+		weight = 'Regular',
 	}),
 	-- freetype_load_target = 'Light',
 	-- freetype_render_target = 'HorizontalLcd',
-	font_size = 11.0,
+	font_size = 11,
 	line_height = 1.4,
 	color_scheme = "carbonfox",
 	hide_tab_bar_if_only_one_tab = true,
@@ -16,6 +16,7 @@ return {
 	initial_cols = 250,
 	window_close_confirmation = 'NeverPrompt',
 	native_macos_fullscreen_mode = true,
+	window_background_opacity = .999,
 	scrollback_lines = 500,
 	window_padding = {
 		left = '2cell',

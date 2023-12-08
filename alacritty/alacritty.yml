@@ -30,6 +30,13 @@ font:
     x: 1
     y: 14
 
+# shell:
+#   program: /usr/local/bin/fish
+#   args:
+#     - --login
+#     - --init-command
+#     - "clear"
+
 scrolling:
   history: 10000
 
