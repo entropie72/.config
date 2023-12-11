@@ -14,7 +14,7 @@ $character"""
 style = "bold green"
 truncation_length = 3
 truncate_to_repo = false
-truncation_symbol = " "
+truncation_symbol = "󰇘 "
 
 [character]
 success_symbol = "[❯](purple)"

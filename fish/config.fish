@@ -42,6 +42,12 @@ alias pb "$HOME/.development/pb/pocketbase"
 
 alias sudu "sudo du -hd1"
 
+alias sign "function prep
+      sudo xattr -cr $1
+			sudo xattr -r -d com.apple.quarantine $1
+      sudo codesign --force --deep --sign - $1
+  end && prep"
+
 starship init fish | source
 # oh-my-posh init fish | source
 
