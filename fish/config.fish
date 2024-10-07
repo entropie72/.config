@@ -11,6 +11,7 @@ set -gx GPG_TTY (tty)
 set -x GOPATH ~/go # the -x flag exports the variable
 set PATH $HOME/.development/flutter/bin/ $PATH
 set	PATH $PATH /usr/local/bin
+set	PATH $PATH /usr/local/go/bin/
 set PATH $PATH $GOPATH/bin
 set PATH $PATH $HOME/.pub-cache/bin
 set PATH $PATH $HOME/.development/zig/bin
