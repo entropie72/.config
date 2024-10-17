@@ -26,6 +26,7 @@ alias mongostop "brew services stop mongodb-community@6.0"
 alias mongostart "brew services start mongodb-community@6.0"
 alias love "/Applications/love.app/Contents/MacOS/love"
 # alias vi "~/.development/nvim-macos/bin/nvim"
+alias fd "fd -c never"
 
 alias ga "git add"
 alias gs "git status"
