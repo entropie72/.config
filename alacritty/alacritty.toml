@@ -20,7 +20,7 @@ style = "Italic"
 
 [font.normal]
 family = "BlexMono Nerd Font"
-style = "Regular"
+style = "Medium"
 
 [font.offset]
 x = 1
