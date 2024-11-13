@@ -92,3 +92,4 @@ set -x PATH "/Library/Frameworks/Python.framework/Versions/3.11/bin" "$PATH"
 
 # Created by `pipx` on 2024-06-09 07:41:43
 set PATH $PATH /Users/hao/.local/bin
+

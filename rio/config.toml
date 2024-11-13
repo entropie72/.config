@@ -26,7 +26,7 @@
 # define x axis padding (default is 0)
 #
 # Example:
-# padding-x = 10
+padding-x = 25
 
 # Padding-y
 #
@@ -34,7 +34,7 @@
 # (default is [0, 0])
 #
 # Example:
-# padding-y = [30, 10]
+padding-y = [20, 20]
 
 # Option as Alt
 #
@@ -50,7 +50,7 @@
 # Default is `1.0`
 #
 # Example:
-# line-height = 1.2
+# line-height =
 
 # Startup directory
 #
@@ -79,7 +79,7 @@
 # Confirm before exiting Rio
 # Default is `true`
 #
-# confirm-before-quit = false
+confirm-before-quit = false
 
 # Cursor
 #
@@ -101,9 +101,9 @@
 #
 # Whenever the key binding `OpenConfigEditor` is triggered it will
 # use the value of the editor along with the rio configuration path.
-# [editor]
-# program = "vi"
-# args = []
+[editor]
+program = "nvim"
+args = []
 
 # Window configuration
 #
@@ -125,13 +125,13 @@
 # • decorations - Set window decorations, options: "Enabled", "Disabled", "Transparent", "Buttonless"
 #
 # Example:
-# [window]
-# width = 600
-# height = 400
-# mode = "windowed"
-# opacity = 1.0
-# blur = false
-# decorations = "enabled"
+[window]
+width = 1512
+height = 944
+mode = "Windowed"
+opacity = 0.9
+blur = true
+decorations = "disabled"
 
 # Renderer
 #
@@ -155,11 +155,11 @@
 #       For more information please check the docs.
 #
 # Example:
-# [renderer]
-# performance = "high"
+[renderer]
+performance = "low"
 # backend = "automatic"
 # disable-unfocused-render = false
-# level = 1
+level = 0
 
 # Keyboard
 #
@@ -181,8 +181,6 @@
 # will always look for regular font bounds whene
 #
 # You can also set family on root to overwrite all fonts
-# [fonts]
-#   family = "cascadiamono"
 #
 # You can also specify extra fonts to load
 # [fonts]
@@ -196,13 +194,13 @@
 # so to reflect your changes, you will need to close and reopen Rio.
 #
 # Example:
-# [fonts]
-# size = 18
+[fonts]
+family = "BlexMono Nerd Font"
+size = 11.8
 #
-# [fonts.regular]
-# family = "cascadiamono"
-# style = "normal"
-# weight = 400
+[fonts.regular]
+style = "Normal"
+weight = 500
 #
 # [fonts.bold]
 # family = "cascadiamono"
@@ -314,7 +312,10 @@ args = ["--login"]
 # More information in: https://raphamorim.io/rio/docs/config/bindings
 #
 # Example:
-# [bindings]
+[bindings]
+keys = [
+    # { key = "c", with = "super", action = "None" },
+]
 # keys = [
 #   { key = "q", with = "super", action = "Quit" },
 #   # Bytes[27, 91, 53, 126] is equivalent to "\x1b[5~"
@@ -329,4 +330,3 @@ args = ["--login"]
 # [developer]
 # log-level = "OFF"
 # enable-log-file = false
-
