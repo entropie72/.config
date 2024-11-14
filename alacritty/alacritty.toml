@@ -1,6 +1,5 @@
-import = ["/Users/hao/.config/alacritty/colors/carbonfox.toml"]
 
-[shell]
+[terminal.shell]
 # program = "/opt/homebrew/bin/fish"
 program = "/opt/homebrew/bin/nu"
 
@@ -121,3 +120,8 @@ y = 20
 [window.position]
 x = 0
 y = 0
+
+[general]
+import = ["/Users/hao/.config/alacritty/colors/carbonfox.toml"]
+
+[terminal]
