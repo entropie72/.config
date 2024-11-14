@@ -25,85 +25,9 @@ style = "Medium"
 x = 1
 y = 15
 
-[[keyboard.bindings]]
-chars = "\u0015"
-key = "Back"
-mods = "Super"
-
-[[keyboard.bindings]]
-chars = "\u0001"
-key = "A"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u0003"
-key = "C"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u0004"
-key = "D"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u0005"
-key = "E"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = """
-
-"""
-key = "J"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u000B"
-key = "K"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u000E"
-key = "N"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u000F"
-key = "O"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u0010"
-key = "P"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u0012"
-key = "R"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u0015"
-key = "U"
-mods = "Command"
-
-[[keyboard.bindings]]
-chars = "\u0017"
-key = "W"
-mods = "Command"
-
-[[keyboard.bindings]]
-action = "Copy"
-key = "C"
-mods = "Command|Shift"
-
-[[keyboard.bindings]]
-action = "SpawnNewInstance"
-key = "N"
-mods = "Command|Shift"
-
 [scrolling]
 history = 10000
+multiplier = 20
 
 # [selection]
 # save_to_clipboard = true
@@ -123,6 +47,6 @@ x = 0
 y = 0
 
 [general]
-import = ["/Users/hao/.config/alacritty/colors/carbonfox.toml"]
+import = ["/Users/hao/.config/alacritty/colors/carbonfox.toml", "/Users/hao/.config/alacritty/key_bindings.toml"]
 
 [terminal]
