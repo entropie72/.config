@@ -7,14 +7,19 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "Carbonfox",
+  "theme": "Github Light",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
   "vim_mode": true,
   "ui_font_family": "BlexMono Nerd Font",
-  "ui_font_size": 13,
+  "ui_font_weight": 500,
+  "ui_font_size": 12,
+  "buffer_line_height": {
+    "custom": 2.1
+  },
   "buffer_font_family": "BlexMono Nerd Font",
-  "buffer_font_size": 11
+  "buffer_font_size": 11,
+  "buffer_font_weight": 500
 }

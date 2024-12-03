@@ -50,7 +50,7 @@ padding-y = [20, 20]
 # Default is `1.0`
 #
 # Example:
-# line-height =
+line-height = 1.8
 
 # Startup directory
 #
@@ -126,8 +126,10 @@ args = []
 #
 # Example:
 [window]
-width = 1512
-height = 944
+# width = 1512
+# height = 944
+width = 756
+height = 472
 mode = "Windowed"
 opacity = 0.9
 blur = true
@@ -314,7 +316,7 @@ args = ["--login"]
 # Example:
 [bindings]
 keys = [
-    # { key = "c", with = "super", action = "None" },
+    { key = "c", with = "super", action = "None" },
 ]
 # keys = [
 #   { key = "q", with = "super", action = "Quit" },
