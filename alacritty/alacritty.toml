@@ -51,6 +51,6 @@ x = 0
 y = 0
 
 [general]
-import = ["/Users/hao/.config/alacritty/colors/carbonfox.toml", "/Users/hao/.config/alacritty/key_bindings.toml"]
+import = ["/Users/hao/.config/alacritty/colors/github_dark.toml", "/Users/hao/.config/alacritty/key_bindings.toml"]
 
 [terminal]

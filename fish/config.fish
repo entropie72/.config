@@ -75,11 +75,6 @@ end
 starship init fish | source
 # oh-my-posh init fish | source
 
-# pnpm
-set -gx PNPM_HOME "/Users/hao/Library/pnpm"
-set -gx PATH "$PNPM_HOME" $PATH
-# pnpm endeval "$(/opt/homebrew/bin/brew shellenv)"
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Bun
 set -Ux BUN_INSTALL "/Users/hao/.bun"
@@ -93,3 +88,8 @@ set -x PATH "/Library/Frameworks/Python.framework/Versions/3.11/bin" "$PATH"
 # Created by `pipx` on 2024-06-09 07:41:43
 set PATH $PATH /Users/hao/.local/bin
 
+fzf --fish | source
+
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /Users/hao/.cache/lm-studio/bin

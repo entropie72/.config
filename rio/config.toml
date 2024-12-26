@@ -316,7 +316,7 @@ args = ["--login"]
 # Example:
 [bindings]
 keys = [
-    { key = "c", with = "super", action = "None" },
+    { key = "c", with = "super", action = "Quit" },
 ]
 # keys = [
 #   { key = "q", with = "super", action = "Quit" },
