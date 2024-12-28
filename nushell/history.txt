@@ -1,2 +1,7931 @@
 clear
+brew list
+ls
+clear
+ls
+clear
+ls
+lc
+ls
+clear
+transmission-cli 
+clear
+brew list
+clear
+break
+brew list
+ls
+clear
+cd /etc
+ls
+vi shells
+sudo vi shells
+brew list
+clear
+ls
+clear
+$nu.config-path
+/Users/hao/Library/Application Support/nushell/config.nu
+cd /Users/hao/Library/Application Support/nushell/config.nu
+cd '/Users/hao/Library/Application Support/nushell/config.nu'
+cd '/Users/hao/Library/Application Support/nushell/'
+ls
+clear
+vi config.nu
+path
+clear
+nuget
+clear
+get
+get --help
+clear
+cd ..
+cd
+clear
+fish
 exit
+ls
+clear
+brew list
+ls
+clear
+exit
+clear
+ls
+clear
+vi
+nvim
+ls
+clear
+vi
+ls
+clear
+exit
+clear
+ls
+clear
+brew list
+clear
+exit
+clear
+vi
+ls
+clear
+ls
+clear
+l
+brew list
+brew
+clear
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/opt/homebrew/bin')
+brew
+brew list
+clear
+eza
+clear
+nvim
+env
+config 
+config nu
+$nu.config-path
+z nushell
+z `/Users/hao/Library/Application Support/nushell/`
+cd `/Users/hao/Library/Application Support/nushell/`
+ls
+clear
+vi
+nvim
+clear
+ls
+clear
+ls
+clear
+vi config.nu
+$nu
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+nushell
+clear
+whereis brew
+brew
+brew list
+ls
+clear
+nvim
+clear
+ls
+clear
+ls
+clear
+exit
+brew
+exit
+nu
+brew
+clear
+cd Desktop
+ls
+clear
+cd Installer/
+ls
+ls | where size > 50mb
+ls | where size > 100mb
+clear
+ls | where size > 100mb
+ls | where size > 100mb | sort-by size | reverse 
+clear
+ls
+clear
+ls
+| where size > 100
+ls
+ls \
+clear
+help command
+help commands
+sys cpu
+clear
+brew
+clear
+ls
+brew
+clear
+open .
+open
+clear
+ls
+clear
+l
+ls --lah
+clear
+ls --h
+clear
+cd .config/
+ls
+open README.md
+clear
+nvim
+ls
+clear
+./nvim
+ls
+clear
+./README.md
+clear
+cd
+clear
+.config/nvim/README.md
+clear
+brew
+$path
+$PATH
+clear
+$nu.config-path
+echo $PATH
+$env.PATH
+whereis $env.PATH
+clear
+$env.PATH
+$nu.env-path
+z Applications/
+cd supp
+clear
+$nu.env-path
+cd `~/Library/Application Support/nushell/`
+clear
+ls
+vi env.nu
+clear
+cd
+$env.PATH
+brew
+clear
+clear
+$env.PATH
+echo $PATH
+echo $env.PATH
+$env.PATH
+pwd $env.PATH
+clear
+$nu.env-path
+clear
+nvi
+nvim
+ls
+clear
+$nu.env-path
+cd `~/Library/Application Support/nushell/`
+ls
+clear
+vi
+clear
+$env.PATH
+$env.PATH | split row (char esep)
+$env.PATH | split row (char esep) | prepend /opt/homebrew/bin/brew
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /opt/homebrew/bin/brew)
+clear
+brew
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /opt/homebrew/bin/)
+clear
+brew
+clear
+ls
+clear
+ls
+clear
+$nu.env-path
+git
+clear
+whereis git
+clear
+ls
+clear
+echo $env.PATH
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /usr/local/bin)
+$env.PATH = ( $env.PATH | split row (char esep) | prepend ~/go<\n>)
+clear
+$env.PATH
+$env.PATH = ( $env.PATH | split row (char esep) | prepend ``)
+$env.PATH
+$env.PATH = ( $env.PATH | split row (char esep) | drop column)
+$env.PATH = ( $env.PATH | split row (char esep) | drop column 1)
+$env.PATH = ( $env.PATH | split row (char esep) | drop)
+$env.pth
+$env.path
+$env.path | drop
+$env.path | drop 0
+$env.path | drop 1
+$env.path
+$env.path | last
+$env.path | skip
+($env.path | skip)
+($env.path | skip<\n>)
+$env.path = ($env.path | skip )
+$env.path
+$env.path = ($env.path | prepend /usr/local/go/bin )
+clear
+node
+ls
+clear
+$nu.config-path
+z
+$env.XDG_CONFIG_HOME
+($env.XDG_CONFIG_HOME)
+$env | reject config | transpose key val | each {|r| echo $"$env.($r.XDG_CONFIG_HOME) = '($r.~/.config/nu)'"} | str join (char nl)
+$env | reject config | transpose XDG_CONFIG_HOME /User/hao/.config/nu | each {|r| echo $"$env.($r.XDG_CONFIG_HOME) = '($r./Usere/hao/.config/nu)'"} | str join (char nl)
+clear
+ls
+clear
+$nu.config-path
+clear
+$nu.config-path
+clear
+$nu.config-path
+ls
+clear
+$nu.config-path
+ls
+clear
+$nu.config-path
+clear
+exit
+$nu.config-path
+z 
+cd
+clear
+cd .config/
+ls
+clear
+cd nushell/
+ls
+cd ..
+clear
+cd ..
+clear
+$nu.config-path
+nu
+brew
+$env.XDG_CONFIG_HOME
+$env.PATH
+/Users/hao/Library/Application Support/nushell/
+`/Users/hao/Library/Application Support/nushell/`
+ls
+nvim config.nu
+vi config.nu
+clear
+exit
+`/Users/hao/Library/Application Support/nushell/`
+vi config.nu
+clear
+$nu.config-path
+clear
+nvim
+clear
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /opt/homebrew/bin/)
+$env.PAT
+$env.PATh
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /usr/local/bin)
+$env.PATH = ( $env.PATH | split row (char esep) | prepend ~/go)
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /usr/local/go/bin)
+clear
+brew
+$env.PATH
+clear
+$nu.config-path
+$env.PATH
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /opt/homebrew/bin/)
+ls
+clear
+$env.path
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /opt/homebrew/bin/)
+$env.path
+brew
+z ala
+ls
+clear
+fish
+z ala
+cd .config/alacritty/
+ls
+clear
+vi alacritty.toml
+clear
+vi
+ls
+clear
+$nu.config-path
+clear
+brew
+$env.PATH = ( $env.PATH | split row (char esep) | prepend /opt/homebrew/bin/)
+ls
+$env.path
+brew
+z ala
+$env.path
+clear
+brew
+clear
+ls
+clear
+brew
+$env.path
+clear
+$env.path
+brew list
+ls
+clear
+vi
+clear
+grid
+d
+clear
+grid -i
+vi `~/Library/Application Support/nushell/.config.nu`
+vi `~/Library/Application Support/nushell/config.nu`
+$env.PROMPT_COMMAND
+ls
+clear
+cd nushell/
+nvim `~/Library/Application Support/nushell/`
+config nu
+ls
+clear
+brew
+brew list
+clear
+bun --version
+bun --version | ls
+bun --version | save hello.txt
+ls
+vi hello.txt
+rm -rf hello.txt
+clear
+nvim
+nvim `~/Library/Application Support/nushell/`
+cd `~/Library/Application Support/nushell/`
+zed .
+vi
+ls
+clear
+z
+ls
+clear
+z comp
+ls
+clear
+ls
+clear
+superfile
+brew list
+brew list | where name = ffmpeg
+brew list | where name=ffmpeg
+clear
+z
+clear
+ls
+clear
+ls 
+ls | where name = Desktop/
+where --help
+clear
+ls | where name =~ Desktop
+clear
+brew list | where name =~ ffmpeb
+brew list | where name =~ ffmpeg
+ls
+clear
+ls
+clear
+z nus
+ls
+clear
+vi aliases.nu
+vi
+zed .
+z nu
+nvim `~/Library/Application Support/nushell/`
+clear
+ls
+cd `~/Library/Application Support/nushell/`
+ls
+clear
+z nvi
+z nu
+ls
+clear
+vi
+clear
+z nu
+ls
+clear
+vi
+zed .
+ls
+clear
+gs
+clear
+z fish
+vi
+eza
+clear
+ls
+eza
+clear
+gs
+clear
+c
+ls
+vi
+ls
+clear
+z nu
+vi
+ls
+clear
+ls
+l
+ls
+clear
+ls
+brew list
+clear
+brew isntall superfile
+brew install superfile
+lc
+eals
+ls
+clear
+z nhh
+ls
+clear
+l
+z nhh
+z ob/nhh
+z
+clear
+z obsinh
+z ob/nhh
+z nhh
+ls
+clear
+l
+ls
+clear
+l
+z .obsidian/app.jsonls
+z .obsidian/
+zed .
+ls
+z nu
+vi
+l
+clear
+vi
+ls
+clear
+ls
+clear
+ls
+clear
+vi
+ls
+clear
+spf
+superfile
+clear
+spf
+ls
+clear
+spf
+resign
+z fish
+ls
+clear
+vi
+clear
+greet
+z nu
+vi
+zed .
+greet
+greet hao
+clear
+z fish
+ls
+clear
+z Applications/
+z /Applications/
+resign Spacedrive.app/
+clear
+z fish
+vi
+clear
+ls
+clear
+vi
+clear
+resign
+resign ho
+clear
+resign k
+clear
+resign /Applications/Spacedrive.app/
+y
+yazi
+brew outdated
+dua 
+brew upgrade bun
+pixman
+fish
+clear
+z rio
+ls
+clear
+vi
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+z rio
+ls
+clear
+ls
+clear
+(ls)
+ls 
+ls  
+ls 
+ls
+LS
+ls
+clear
+z rio
+ls
+clear
+ls
+clear
+l
+rm -rf 2
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+l
+yazi
+clear
+l
+clear
+l
+vi
+clear
+rio --version
+ls
+clear
+whereis rio
+brew upgrade --cask rio
+ls
+clear
+ls
+clear
+z rio
+ls
+vi
+ls
+clear
+vi
+ls
+clear
+ls
+clear
+l
+ls
+clear
+ls
+clear
+vi
+ls
+clear
+ls
+z rio
+ls
+clear
+vi
+ls
+clear
+vi
+ls
+z ala
+ls
+clear
+ls
+l
+vi
+l
+z
+l
+ls
+clear
+z rio
+vi
+l
+clear
+z ..
+l
+gs
+git diff fish/config.fish
+ls
+clear
+history
+history | where name =~ rio
+history | where command =~ rio
+la
+clear
+z rio
+ls
+clear
+vi
+clear
+z nvi
+ls
+clear
+vi
+ls
+clear
+z rio
+ls
+clear
+l
+vi
+ls
+clear
+l
+clear
+ls
+clear
+z rio
+l
+ls
+clear
+z /Applications/
+resign Retrobatch.app/
+resign Tower.app/
+ls
+clear
+z ala
+ls
+clear
+vi
+clear
+pake
+cargo
+ls
+clear
+pake
+clear
+vi
+clear
+ls
+clear
+z icons
+ls
+open .
+fish
+fish
+clear
+pake 
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+npm
+clear
+node --version
+whereis node
+brew upgrade node
+clear
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+npm config list
+npm config delete script-shell
+npm config list
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+clear
+brew uninstall node
+mongostop
+brew stop-services
+brew services
+brew services stop
+sudo brew services stop
+z fish
+vi
+mongostop
+fish
+clear
+env | grep -E -e '^HOMEBREW_'
+unset
+fish
+clear
+ls
+brew uninstall mongo
+brew uninstall mongosh
+brew uninstall mongosh mongodb-community
+brew uninstall node
+clear
+brew uninstall bun
+clear
+bun
+clear
+brew install bun
+bun
+bun --version
+clear
+node --version
+clear
+bun i -g pake-cli
+pake
+clear
+brew install node
+pake
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+cargo
+tauri
+clear
+bun remove -g pake-cli
+clear
+npm install -g pake-cli
+clear
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+npm remove -g pake-cli
+clear
+sudo chown -R $(whoami) ~/.npm
+sudo chown -R hao ~/.npm
+fish
+zsh
+clear
+bash
+clear
+exit
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+bun i -g pake-cli
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+clear
+$env.Path
+clear
+/bin
+l
+clear
+zed .
+z nu
+zed .
+clear
+zsh
+$env.Path
+zsh
+clear
+pake 'https://chat.zalo.me' --hide-title-bar --icon '/Users/hao/Downloads/8186b9d4f577bb6c78a6b3f818b54cc7_Google_Messages.icns'
+ls
+clear
+ls
+clear
+vi
+z rio
+ls
+clear
+z rio
+clear
+ls
+l
+ls
+clear
+vi
+tmux
+ls
+clear
+tmux
+z shell
+ls
+clear
+z shell
+z etc
+ls
+clear
+sudo nvim shells 
+clear
+chsh
+sudo chsh
+clear
+ls
+clear
+tmux
+ls
+clear
+tmux
+vi .tmux.conf
+tmux
+vi .tmux.conf
+clear
+tml
+tmk
+tml
+clear
+tmk
+ls
+clear
+tml
+clear
+ls
+exit
+tmux
+ls
+clear
+z rio
+vi
+z rio
+vi
+ls
+clear
+vi
+z rio
+ls
+clear
+vi
+z rio
+vi
+zed .
+ls
+clear
+ls
+clear
+ls
+lear
+ls
+lear
+yazi
+clear
+spf
+z go
+ls
+clear
+z bin
+l
+gdu
+./gdu
+ls
+clear
+z shell
+ls
+clear
+vi
+zed .
+gdu
+clear
+exit
+ls
+clear
+gdu
+ls
+clear
+z ala
+vi
+gs
+git add .
+gsc 'chore: casual update'
+clear
+z ..
+ga .
+clear
+gsc 'chore: casual update'
+gs
+clear
+git status
+z config
+l
+gs
+git restore --staged .
+l
+clear
+z rio
+l
+git status
+z ala
+ls
+clear
+git status
+git restore --staged .
+clear
+z ..
+ls
+clear
+git add .
+l
+gsc 'chore: casual update'
+clear
+l
+clear
+git status
+z config
+gsc 'chore: casual update'
+gpg
+fish
+$env.GPG_TTY = (tty)
+clear
+ls
+clear
+z nu
+vi
+zed
+ls
+clear
+ls
+clear
+ls
+clear
+ruff
+clear
+uv
+clear
+ls
+clear
+brew outdated
+brew upgrade nushell python uv yt-dlp alacritty quickrecorder starship gh eza dua-cli
+alacritty migrate
+ls
+clear
+z icons
+open .
+z icons
+open .
+z icons
+ls
+open .
+ls
+clear
+z icons
+/usr/bin/open
+/usr/bin/open .
+open .
+ls
+clear
+open Applications/
+speedtest
+ls
+clear
+ls
+clear
+z ala
+ls
+clear
+z ..
+gs
+git diff alacritty/
+git add .
+gsc 'chore: casual update'
+clear
+vi
+ls
+clear
+ls
+clear
+z ala
+ls
+clear
+vi
+ls
+clear
+z ..
+git add .
+gsc 'feat(alacritty): blur the background'
+gp
+l
+clear
+z
+l
+z ala
+l
+slce
+clear
+vi
+l
+z ala
+vi
+l
+ls
+l
+ls
+clear
+z ala
+ls
+clear
+ls
+clear
+z config
+ga .
+gsc 'chore(alacritty): move key bindings into a new file'
+clear
+gp
+resign /Applications/Rive.app/
+spf
+clear
+spf
+sudo nvim /etc/hosts
+ls
+clear
+speedtest
+resign /Applications/Adguard.app/
+speedtest
+ls
+clear
+z Desktop/
+l
+clear
+z Desktop/
+./fix_adguard
+clear
+./Downloads/AdGuard_2_13_0_1558.dmg
+./Downloads/AdGuard_2_13_0_1558.dmg/Content
+./Downloads/AdGuard_2_13_0_1558.dmg/Contents
+.//Users/hao/Downloads/applet
+./Users/hao/Downloads/applet
+sh /Users/hao/Downloads/applet
+sudo nvim /etc/hosts
+ls
+clear
+host
+clear
+resign /Applications/Shottr.app/
+defaults write cc.ffitch.shottr captureCursor include
+z etc
+brew install --cask input-source-pro
+ls
+sudo nvim /etc/hosts
+clear
+./Users/hao/Downloads/spoofdpi
+ls
+clear
+sudo nvim /etc/hosts
+resign /Applications/Cork.app/
+rio --version
+clear
+brew outdated
+brew upgrade rio
+brew upgrade rio --cask
+ls
+clear
+z rio
+ls
+l
+z rio
+ls
+clear
+l
+z rio
+ls
+clear
+l
+z rio
+vi
+ls
+clear
+vi
+clear
+z rio
+ls
+clear
+vi
+z icons
+open .
+resign `/Applications/Timer RH.app/`
+resign /Applications/Bear.app/
+z doc
+l
+clear
+z `OneDrive - nhhao/`
+l
+clear
+fd
+clear
+fd pracical
+clear
+z supp
+ls
+clear
+z supp
+ls
+z xyz.waveapps.keyecho/
+ls
+clear
+z sounds/
+ls
+clear
+ls
+vi
+open .
+ls
+clear
+brew list
+resign `/Applications/Final Cut Pro.app/`
+resign /Applications/SoundSource.app/
+resign /Applications/PowerPhotos.app/
+resign /Applications/Blender.app/
+z key
+open .
+defaults delete ~/Library/Preferences/com.panic.Nova WindowRestorationData
+sudo /Applications/Nova.app/Contents/MacOS/Nova
+resign /Applications/BoltAI.app/
+resign /Applications/Klack.app/
+sudo nvim /etc/hosts
+clear
+resign /Applications/Sketch.app/
+ls
+clear
+bun create vue@latest
+clear
+bun create vue@latest
+clear
+mv binhyengarden_menu/ ./Projects/binhyengarden/
+z binhyen
+ls
+clear
+z binhyengarden_menu/
+ls
+clear
+l
+clear
+bun i
+l
+clear
+tml
+clear
+ls
+clear
+ls
+clear
+vi
+ls
+clear
+vi
+clear
+ls
+clear
+z nvi
+ls
+clear
+bun i -g @vue/language-server
+clear
+la
+ls
+clear
+exit
+vi
+clear
+exit
+vi
+z nvi
+ls
+clear
+vi
+clear
+vi
+ls
+clear
+vi
+exit
+clear
+bun i --dev
+bun i --de
+bun i dev
+clear
+bun i -D
+bun i --help
+clear
+bun i -d tailwindcss postcss autoprefixer
+bunx tailwindcss init -p
+vi
+z nvi
+ls
+clear
+vi
+clear
+exit
+clear
+bun dev
+clear
+z node_modules/tailwindcss/lib/lib/load-config.js
+z node_modules/tailwindcss/lib/lib
+vi load-config.js
+clear
+z -0
+z -
+ls
+clear
+z ..
+clear
+z ..
+ls
+clear
+l
+z recipe/
+l
+clear
+zed .
+z -
+z menu
+ls
+clear
+z ..
+l
+z binhyengarden_menu/
+ls
+clear
+ls
+celar
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+ls
+clear
+exit
+vi
+vi
+z nvi
+ls
+clear
+vi
+ls
+clear
+ls
+clear
+exit
+z nvi
+ls
+clear
+vi
+exit
+vi
+clear
+vi
+clear
+vi
+clear
+z nvi
+vi
+clear
+bun -g list
+ls ~/.bun/bin
+exit
+clear
+exit
+vi
+clear
+exit
+clear
+z nvi
+vi
+vi
+clear
+vi
+clear
+bun -g i typescript typescript-language-server
+ls
+clear
+ls
+clear
+z /usr/local
+z lib/
+clear
+z
+z ~/.bun/bin/
+lk
+l
+z tsc
+z ..
+l
+z install/
+l
+z global/
+l
+z node_modules/
+l
+z @vue/
+l
+z typescript-plugin/
+l
+pwd
+ls
+clear
+exit
+zvi
+vi
+exit
+exit
+bun dev
+clear
+exit
+tma
+ls
+clear
+z binh
+ls
+clear
+vi
+clear
+z lsp
+vi
+clear
+vi
+clear
+z menu
+ls
+clear
+z -
+z binh
+zed .
+z memnu
+z menu
+vi
+clear
+tml
+clear
+z recipe
+ls
+clear
+vi
+z menu
+z ..
+ls
+clear
+z menu
+z ..
+ls
+clear
+mv menu _menu
+z _menu
+ls
+clear
+z ..
+l
+clear
+bun create vite
+z menu/
+clear
+bun i
+ls
+clear
+open .
+clear
+ls
+clear
+ls
+clear
+z ..
+l
+clear
+z menu
+ls
+clear
+zed .
+resign `/Applications/PixelSnap 2.app/`
+sudo nvim /etc/hosts
+brew upgrade rio --cask
+clear
+ls
+clear
+l;
+l
+clear
+z rio
+ls
+clear
+vi
+ls
+clear
+ls
+resign `/Applications/PixelSnap 2.app/`
+clear
+ls
+clear
+ls
+clear
+l
+clear
+z rio
+vi
+clear
+ls
+clear
+resign /Applications/Xmind.app/
+speedtest
+ls
+clear
+brew outdated
+brew upgrade yt-dlp
+ls
+clear
+resign /Applications/SoundSource.app/
+ls
+clear
+sudo nvim /etc/hosts
+ls
+clear
+ls
+clear
+sudo nvim /etc/hosts
+speedtest
+clear
+resign /Applications/Session.app/
+speedtest
+resign /Applications/Session.app/
+clear
+speedtest
+ls
+speedtest
+ls
+clear
+volar
+clear
+typescript
+z bun
+ls
+clear
+z bun
+l
+z install/
+l
+z global/
+l
+z node_modules/
+l
+z typescript/
+l
+z bin
+l
+z ..
+l
+z lib
+l
+pwd | pbcopy 
+vue-language-server
+whereis vue-language-server
+z bun
+z .bun
+z bin
+z vue-language-server
+l
+tcs
+tsc
+clear
+ls
+clear
+cp
+cb
+clear
+pbcopy
+clear
+pbcopy hello
+clea
+clear
+echo "Hello pbcopy" | pbcopy
+z key
+ls
+clear
+open .
+speedtest
+z `/Users/hao/Downloads/Coldplay - Viva la Vida (RockBand)`
+ls
+rm -rf *.flac
+ls
+clear
+open .
+brew outdated
+speedtest
+z Documents/
+ls
+clear
+ls
+clear
+readlink -f `OneDrive - nhhao/`
+z ~/Library/CloudStorage/OneDrive-nhhao/
+l
+z ..
+open .
+mv `/Users/hao/Movies/Courses/SuperHi - Visual Design + Branding/code` .code
+ls
+clear
+resign /Applications/OmniPlayerStore.app/
+z keys
+ls
+clear
+z icons
+l
+sopen .
+open .
+ls
+clear
+z download
+git clone 'https://github.com/nathco/Export-More/tree/c0bfbd60d03b556fc48cf6521b7f745a943dcf2f/Export-More.sketchplugin'
+git clone 'https://github.com/nathco/Export-More'
+open .
+z icons
+ls
+clear
+open .
+mv '/Users/hao/Downloads/3fc254f0aa86c4d9a8d93e355d524fc9_Gnome_Settings.icns' .
+z icons
+open .
+z app
+z /app
+z /Applications/
+open 
+open .
+z icon
+mv '/Users/hao/Downloads/feebd4f6412d122082c56549e10a920e_IINA.icns' .
+open .
+z /Applications/
+open .
+whereis youtube-dl
+l
+/System/Library/
+assetutil 
+z AssetsV2/
+LS
+Z com_apple_MobileAsset_ComfortSoundsAssets/
+open .
+z com_apple_MobileAsset_ComfortSoundsAssets/
+open .
+ls
+clear
+brew outdated
+z logic
+z ~/Music/Logic/
+l
+clear
+sk
+sk --help
+clear
+sk-tmux
+ls
+clear
+ls
+clear
+sk
+sk-tmux
+clear
+l
+clear
+sk-tmux 
+z ..
+sk
+exit
+tmux
+brew install maccy
+clear
+resign /Applications/Maccy.app/
+rio --version
+brew install rio --head
+brew install rio --head --cask
+brew install rio --cask --HEAD
+brew install --cask rio --HEAD
+resign `/Applications/Pixelmator Pro.app/`
+visudo
+pake 'https://app.raindrop.io/' --hide-title-bar --icon /Users/hao/Downloads/036853f2be24229ac5218bd7bbeb0c6e_nofTfuuGdG.icns
+z vst
+ls
+z vst3
+ls
+clear
+ls
+clear
+rm -rf Raindrop.dmg
+z tmp
+ls
+clear
+mkdir pake
+z pake
+ls
+clear
+vi raindrop.css
+clear
+pake 'https://app.raindrop.io/' --hide-title-bar --icon /Users/hao/Downloads/036853f2be24229ac5218bd7bbeb0c6e_nofTfuuGdG.icns --inject raindrop.css
+z pake
+l
+vi raindrop.css
+pake 'https://app.raindrop.io/' --hide-title-bar --icon /Users/hao/Downloads/036853f2be24229ac5218bd7bbeb0c6e_nofTfuuGdG.icns --inject raindrop.css
+resign /Applications/Noizio.app/
+z `~/Library/Application Support/xyz.waveapps.keyecho/`
+ls
+open .
+ls
+open .
+clear
+/Users/hao/Library/Application Support/xyz.waveapps.keyecho/sounds 
+`/Users/hao/Library/Application Support/xyz.waveapps.keyecho/sounds`
+clear
+pwd | pbcopy 
+`/Users/hao/Library/Application Support/xyz.waveapps.keyecho/sounds`
+ls
+clear
+open .
+z `~/Library/Application Support/xyz.waveapps.keyecho/`
+z sounds
+l
+clear
+z nk-cream/
+open .
+sudo nvim /etc/hosts
+ls
+clear
+sudo nvim /etc/hosts
+z iconst
+ls
+z icons
+ls
+clear
+mv '/Users/hao/Downloads/036853f2be24229ac5218bd7bbeb0c6e_nofTfuuGdG.icns' '/Users/hao/Downloads/773b9e24758c63c01ca3a1fea02d6e19_yxhsvA8iUc.icns' .
+z icons
+ls
+mkdir ios
+clear
+resign /Applications/CodeEdit.app/
+z ios
+z icons
+z ios/
+open .
+z ios
+open .
+z ios
+open .
+z comp
+l
+open .
+ls
+clear
+brew list
+z com
+ls
+open .
+sudo resign /Applications/AnyGo.app/
+resign /Applications/AnyGo.app/
+sudo nvim /etc/hosts
+resign `/Applications/Firefox Developer Edition.app/`
+z liba
+z lib
+l
+z lib
+l
+z supp
+l
+z u-he
+l
+sudo rm -rf Uhbik*
+sudo rm -rf Uhbi*
+l
+clear
+z ..
+z supp
+l
+z comp
+l
+open 
+open .
+ls
+clear
+z comp
+l
+clear
+open .
+clear
+ls
+clear
+z
+clear
+fd antares
+z supp
+l
+z Antares/
+l
+z /
+clear
+fd antares
+z shared
+z Users/
+l
+z antares
+l
+z
+clear
+z Library/
+l
+z supp
+l
+clear
+z Antares/
+l
+z
+clear
+z music
+ls
+clear
+z `Audio Music Apps/`
+z Temp/
+z AntaresData/
+l
+rm -rf `Auto-Tune Artist.xml`
+clear
+z /
+clear
+fd 'Auto-Tune Artist'
+fd 'Auto-Tune'
+clear
+fd 'Tuned'
+clear
+fd 'Tuned Plugins'
+clear
+ls
+clear
+z
+vi .fdignore
+clear
+z
+clear
+z /
+clear
+fd 'Tuned Plugins'
+clear
+clear
+z doc
+ls
+clear
+z `Tuned Plugins/`
+l
+clear
+open .
+z comp
+ls
+clear
+fd 'Tuned Plugins'
+ls
+clear
+z comp
+ls
+clear
+open .
+clear
+z lib
+l
+z lib
+l
+z supp
+l
+z tuned
+clear
+z app
+l
+z `Tuned Plugins/`
+l
+z ..
+open .
+ls
+clear
+z
+clear
+z app
+ls
+clear
+z /Applications/
+l
+clear
+z `Audio Modeling/`
+l
+clear
+z `SWAM Clarinets/`
+l
+clear
+resing `SWAM Bass Clarinet 3.app/`
+resign `SWAM Bass Clarinet 3.app/`
+resign `SWAM Clarinet 3.app/`
+z comp
+l
+clear
+l
+clear
+resign `SWAM Clarinet 3.app/`
+resign `SWAM Clarinet 3.component/`
+resign `SWAM Bass Clarinet 3.component/`
+z comp
+ls
+clear
+open .
+resign `SWAM Clarinet 3.component/`
+resign `SWAM Bass Clarinet 3.component/`
+z AppleAES3Audio.component/
+z app
+z /Applications/
+z swam
+l
+clear
+l
+resign `SWAM Bass Clarinet 3.app/`
+resign `SWAM Clarinet 3.app/`
+/Applications/Audio Modeling/SWAM Clarinets/new_swamv3_folder_migration.sh 
+'/Applications/Audio Modeling/SWAM Clarinets/new_swamv3_folder_migration.sh'
+sh new_swamv3_folder_migration.sh
+bash
+ls
+clear
+zsh
+z swam
+l
+clear
+resign `SWAM Bass Clarinet 3.app/`
+'/Applications/Audio Modeling/SWAM Clarinets/SWAM Bass Clarinet 3.app/Contents/MacOS/SWAM Bass Clarinet 3'
+l
+/Applications/Audio Modeling/SWAM Clarinets/SWAM Bass Clarinet 3.app/Contents/MacOS/SWAM Bass Clarinet 3
+'/Applications/Audio Modeling/SWAM Clarinets/SWAM Bass Clarinet 3.app/Contents/MacOS/SWAM Bass Clarinet 3'
+'/Applications/Audio Modeling/SWAM Clarinets/SWAM Bass Clarinet 3.app/Contents/MacOS/'
+clear
+z des
+ls
+clear
+resign `SWAM Bass Clarinet 3`
+sudo chmod +x `SWAM Bass Clarinet 3`
+z /app
+z swam
+resign `SWAM Bass Clarinet 3`
+resign `SWAM Bass Clarinet 3.app/`
+z desls
+zdes
+z des
+ls
+clear
+chmod +x `SWAM Clarinet 3`
+z swam
+l;s
+ls
+clear
+resign `SWAM Clarinet 3.app/`
+z comp
+open .
+resign `SWAM Clarinet 3.component/`
+resign `SWAM Bass Clarinet 3.component/`
+brew list
+brew --cask list
+brew list --cask
+brew install --cask rio --HEAD
+clear
+brew install --cask rio@HEAS
+brew install --cask rio@HEAD
+brew install rio --head
+brew install --cask rio
+rio --version
+clear
+brew upgrade rio
+brew upgrade --cask \rio
+brew upgrade --cask rio
+rio --version
+clear
+ls
+clear
+z rio
+ls
+clear
+vi
+ls
+clear
+z
+ls
+clear
+ls
+clear
+ls
+z comp
+ls
+open .
+ls
+clear
+l
+clear
+sudo rm -rf `fiedler audio splat.component/`
+clear
+z lib
+l
+exit
+z lib
+l
+z lib
+z ~/Library/
+l
+supp
+l
+z sup
+l
+z `Plugin Alliance/`
+l
+open .
+l
+clear
+z app
+l
+z `Plugin Alliance/`
+l
+z ..
+z `Plugin Boutique/`
+l
+clear
+ls
+clear
+z ..
+l
+clear
+z lib
+l
+z libl
+z lib
+l
+z app
+l
+z KORG/
+l
+z ..
+z app
+l
+z /
+clear
+fd 'ARP 2600'
+ls
+clear
+z comp
+clear
+z comp
+l
+clear
+sudo rm -rf `ARP 2600 FX.component/`
+z sup
+l
+clear
+z KORG/
+l
+z `ARP 2600/`
+l
+open .
+rm -rf `ARP 2600 FX.preferences`
+CLEAR
+Z
+CLEAR
+CLEAR
+ls
+clear
+z comp
+open 
+open .
+clear
+fd 'Bettermaker'
+clear
+fd 'BM60'
+z /Volumes/
+z /System/
+z Volumes/
+l
+clear
+z data
+l
+z private/var/d
+z private/var/
+z db/receipts/
+l
+z ..
+open .
+l
+open .
+clear
+ls
+clear
+l
+z receipts/
+l
+clear
+l
+clear
+sudo rm -rf *VST*
+l
+ls
+ls | count
+clear
+sudo rm -rf *AAX*
+l
+sudo rm -rf eu.bettermaker*
+l
+exit
+sudo rm -rf cn.3utools.mac.*
+sudo rm -rf com.arturia.syncla*
+sudo rm -rf com.Arturia.Syncla*
+sudo rm -rf com.fiedler-audio.*
+sudo rm -rf com.pluginAlliance.AU.*
+clear
+z comp
+open .
+speedtest
+clear
+z comp
+open .
+ls
+speedtest
+clear
+speedtest
+brew install orbstack
+clear
+brew uninstall orbstack
+brew install orbstack
+z xyz.waveapps.keyecho/
+ls
+clear
+ls
+clear
+open .
+ls
+clear
+open .
+zed .
+l
+mv custom_eg-crystal-purple/ customegpurple
+z xyz.waveapps.keyecho/
+open .
+clear
+z download
+ls
+clear
+ffmpeg --help
+fish
+ffmpeg --help
+mv
+clear
+z Downloads/
+ls
+clear
+mv sound.ogg eg-purple-sound.oggg
+mv eg-purple-sound.oggg eg-purple-sound.ogg
+clear
+ls
+clear
+ffmpeg -i sound.aiff -o sound.ogg
+ffmpeg -i sound.aiff sound.ogg
+ls
+clear
+z xyz
+open .
+ls
+clear
+z tmp
+l
+clear
+ssh-keygen -t rsa -N "" -b 2048 -C "oracle-cloud"
+clear
+z ~/.ssh
+l
+chmod 400 id_rsa
+l
+open .
+speedtest
+z tmp
+l
+clear
+docker --version
+docker ps
+z tmp
+l
+docker pull postgres
+l
+clear
+z ~/.orbstack/
+ls
+clear
+open .
+docker pull postgres
+docker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest
+docker ps
+docker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest
+docker stop -d --name nocodb -p 8080:8080 nocodb/nocodb:latest
+docker stop
+docker ps
+clear
+docker stop Stop one or m
+docker ps
+docker stop f739f83b7ed5
+clear
+docker ps
+docker run f739f83b7ed5
+clear
+docker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest<\n>
+docker run -d --name nocodb -p 8080:8080 nocodb/nocodb:latest
+clear
+docker run --help
+docker run -v
+orb
+ls
+clear
+z comp
+ls
+clear
+ls
+clear
+open .
+z ..
+z _Components/
+ls
+clear
+open .
+ls
+clear
+ls
+clear
+z comp
+fd 76
+l
+clear
+z ../_Components/
+clear
+fd 76
+z u-he
+ls
+z Presswerk/
+ls
+clear
+z 
+clear
+z comp
+open .
+z _com
+ls
+clear
+open .
+z _comp
+ls
+clear
+open 
+open .
+mv `Xrack Pro.component/` ../Components/
+sudo mv `Xrack Pro.component/` ../Components/
+open .
+z comp
+l
+z comp
+l
+open .
+z comp
+l
+clear
+z ../_Components/
+l
+open .
+speedtest
+resign /Applications/RewriteBar.app/
+z comp
+z ..
+open .
+mv `_Components/Ghz Faraday Limiter 3.component/` ./Components/
+sudo mv `_Components/Ghz Faraday Limiter 3.component/` ./Components/
+open .
+z comp
+ls
+clear
+open .
+z comp
+open .
+z comp
+ls
+clear
+open .
+ls
+l
+clear
+lsclear
+clear
+ls
+clear
+z atten
+ls
+clear
+zed .
+z nvi
+ls
+clear
+open .
+zed .
+z comp
+open .
+z ala
+z comp
+l
+open .
+clear
+z comp
+l
+z ../
+z Components
+z ../
+l
+clear
+z com
+z ..
+mv _Components/ Components
+sudo mv _Components/ Components
+z comp
+l
+opem .
+open .
+ls
+z ..
+l
+open .
+clear
+mkdir Components
+sudo mkdir Components
+l
+clear
+z Components/
+l
+open .
+l
+clear
+open .
+speedtest
+ls
+clear
+z lib
+l
+clear
+z lib
+l
+clear
+z app
+l
+ls
+ls | where name =~ Farrago
+ls | where name =~ Rogue
+z app
+ls
+clear
+ls
+ls | where name =~ Rogue
+ls | where name =~ Farrago
+z `Farrago 2/`
+l
+open .
+z `Farrago 2/`
+z farrag
+ls
+clear
+open .
+z farr
+open .
+z farra
+z `Sound Files/`
+open .
+z app
+z /Applications/Noizio.app/
+open .
+z ..
+open .
+ls
+clear
+z Down
+l
+clear
+ytmusic 'https://www.youtube.com/watch?v=Os47nMrjw_Y'
+yt-dlp -f144 'https://www.youtube.com/watch?v=Os47nMrjw_Y'
+yt-dlp -F 'https://www.youtube.com/watch?v=Os47nMrjw_Y'
+yt-dlp -f251 'https://www.youtube.com/watch?v=Os47nMrjw_Y'
+ls
+clear
+open .
+yt-dlp -f140 'https://www.youtube.com/watch?v=Os47nMrjw_Y'
+mv '5 Pieces by Hans Zimmer ⧹⧹ Iconic Soundtracks ⧹⧹ Relaxing Piano [20min] [Os47nMrjw_Y].m4a' 'Hans Zimmer.m4a'
+open .
+yt-dlp -f140 'https://www.youtube.com/watch?v=UDVtMYqUAyw'
+yt-dlp -f140 'https://www.youtube.com/watch?v=kMkLs1p8Omk'
+clear
+open .
+z download
+open .
+mkdir .hidden
+z .hidden/
+open .
+brew install exiftool
+ls
+clear
+vi
+z menu
+open .
+vi .
+clear
+speedtest
+clear
+speedtest
+clear
+ls
+clear
+vi
+rg --version
+whereis rg
+speedtest
+ls
+clear
+z nvi
+ls
+clear
+gs
+git diff
+clear
+git add .
+gsc 'update: last commit before migrate to new repo'
+clear
+gp
+z ..
+open .
+ls
+clear
+vi
+clear
+vi
+ls
+clear
+l
+z ala
+ls
+clear
+vi
+vi alacritty.toml
+ls
+z ala
+vi
+vi alacritty.toml
+ls
+clear
+z config
+ls
+clear
+l
+git clone 'https://github.com/LazyVim/starter'
+open .
+l
+clear
+mv starter/ nvim
+l
+clear
+vi
+ls
+clear
+vi
+ls
+clear
+z nvim
+ls
+clear
+ls
+vi
+ls
+clear
+rm -rf .git/
+ls
+clear
+l
+rm -rf .gitignore
+ls
+clear
+z ..
+l
+clear
+git status
+l
+z nvim
+l
+clear
+l
+clear
+ls
+clear
+z menu
+l
+clear
+vi
+clear
+z nvi
+ls
+clear
+ls
+clear
+z lua
+l
+clear
+z config/
+l
+z ..
+l
+z plugins/
+l
+vi
+clear
+z menu
+vi
+vi .
+ls
+clear
+z nvim
+ls
+clear
+z -
+z -
+ls
+clear
+ls
+clear
+vi
+l
+z lua
+ls
+clear
+vi
+exit
+ls
+clear
+z Documents/nvim/
+zed .
+ls
+clear
+vi
+z menu
+vi
+clear
+z config
+ls
+clear
+rm -rf nvim
+ls
+clear
+vi
+mkdir nvim
+z nvim
+ls
+clear
+ls
+clear
+z ..
+l
+clear
+git status
+git add .
+gsc 'chore: casual update'
+clear
+z nvim
+lsc
+ls
+clear
+git init
+ls
+clear
+git add .
+vi README.md
+ls
+clear
+git add .
+vi .gitignore
+l
+clear
+git add .
+gs
+clear
+gsc `initial commit`
+ls
+clear
+vi .gitignore
+ls
+clear
+vi .gitignore
+clear
+git add .
+gsc 'update(.gitignore): add .DS_Store'
+l
+clear
+vi .gitignore
+ls
+clear
+vi init.lua
+ls
+clear
+mkdir editor
+mkdir key-bindings
+l
+clear
+mkdir lsp
+l
+mkdir lua
+l
+mv editor/ key-bindings/ lsp/ lua/
+l
+clear
+z lua
+l
+clear
+z ..
+mkdir -p lua/options
+mkdir lua/options
+l
+z lua
+l
+clear
+z ..
+mkdir lua/plugins
+mv lua/plugins/ plug-ins
+z lua
+l
+clear
+z ..
+l
+rm -rf plug-ins/
+z lua
+mkdir plug-ins
+l
+clear
+..
+l
+clear
+z lua
+l
+vi editor/init.lua
+vi key-bindings/init.lua
+vi lsp/init.lua
+vi options/init.lua
+vi plug-ins/init.lua
+l
+clear
+z ..
+l
+clear
+ls 
+ls --du 
+open .
+ls
+clear
+l --tree
+ls --tree
+clear
+eza --tree
+ls
+clear
+git add .
+gsc 'initial setup'
+ls
+clear
+z lua
+l
+z plug-ins/
+l
+clear
+mkdir mini_deps.lua
+rm -rf mini_deps.lua/
+vi mini_deps.lua
+clear
+ls
+clear
+vi init.lua
+clear
+ls
+clear
+ls
+clear
+mkdir mini_deps
+l
+mv mini_deps.lua mini_deps/init.lua
+l
+clear
+eza --tree
+clear
+l
+clear
+vi init.lua
+z nvim
+ga .
+gsc 'update: add mini.deps'
+clear
+vi
+vi init.lua
+clear
+vi
+z mini
+z deps
+ls
+clear
+z lua/plug-ins/
+l
+clear
+vi
+vi init.lua
+ls
+z mini_deps/
+ls
+clear
+vi init.lua
+z ..
+ls
+mv mini_deps deps
+vi init.lua
+l
+mv deps/init.lua ./deps.lua
+ls
+clear
+rm -rf deps
+ls
+clear
+vi init.lua
+l
+clear
+vi init.lua
+z ..
+ls
+clear
+vi init.lua
+clear
+vi
+z deps
+z plug-ins
+ls
+z plug-ins
+ls
+clear
+vi
+vi init.lua
+clear
+vi
+z ..
+l
+clear
+vi init.lua
+z lua/plug-ins
+ls
+vi init.lua
+z nvim
+l
+clear
+vi init.lua
+z lua/plug-ins/
+ls
+clear
+vi init.lua
+clear
+vi
+z nvim
+ls
+clear
+vi init.lua
+z plug-ins
+ls
+clear
+ls
+clear
+mkdir deps
+mv deps.lua deps/init.lua
+ls
+clear
+vi init.lua
+ls
+clear
+z ..
+ls
+clear
+vi
+vi init.lua
+z lua/plug-ins/
+ls
+clear
+vi init.lua
+clear
+z ..
+vi
+vi init.lua
+clear
+z init.lua
+ls
+clear
+l
+gs
+ga .
+clear
+gsc 'fix(mini.deps): add mini.deps to the config'
+clear
+ls
+clear
+ls
+z lua
+l
+z ..
+l
+gs
+l
+z lua
+rm -rf editor/.formatter/
+rm -rf editor/bufferline/
+rm -rf plugins/
+l
+clear
+z ..
+clear
+l
+clear
+ls
+z lua
+ls
+clear
+ls
+vi plug-ins/init.lua
+vi
+clear
+ls
+clear
+z plug-ins/
+ls
+vi init.lua
+clear
+vi
+z nvi
+ls
+clear
+vi init.lua
+vi
+z lua
+vi options/init.lua
+ls
+clear
+vi
+z ..
+git add .
+ls
+clear
+gs
+gsc 'update: add options'
+clear
+exit
+vi lua/plug-ins/init.lua
+clear
+z ala
+ls
+clear
+l
+z colors
+l
+vi ayu_dark.toml
+z ..
+vi alacritty.toml
+lds
+ls
+vi alacritty.toml
+clear
+ls
+clear
+vi alacritty.toml
+ls
+eza --tree
+vi alacritty.toml
+ls
+clear
+ls
+clear
+vi alacritty.toml
+ls
+clear
+vi
+ls
+clear
+z ala
+ls
+clear
+vi alacritty.toml
+ls
+clear
+z ala
+vi alacritty.toml
+open .
+vi ala
+vi alacritty.toml
+ls
+clear
+ls
+clear
+z ala
+ls
+clear
+z colors/
+open .
+cat ayudark.toml
+cat carbonfox.toml
+clear
+vi ayu_light.toml
+z ..
+clear
+vi alacritty.toml
+ls
+clear
+z colors/
+ls
+mv ayudark.toml ayu_dark.toml
+vi ayu_dark.toml
+ls
+clear
+ls
+clear
+vi ayu_mirage.toml
+z ..
+vi alacritty.toml
+ls
+vi alacritty.toml
+ls
+clear
+l
+ls
+clear
+z nvim
+ls
+clear
+vi lua/plug-ins/init.lua
+clear
+vi
+ls
+clear
+vi lua/plug-ins/init.lua
+open .
+clear
+vi lua/editor/init.lua
+vi init.lua
+vi lua/editor/init.lua
+clear
+vi lua/plug-ins/init.lua
+clear
+z ..
+z nvim
+ls
+clear
+vi lua/editor/init.lua
+ls
+clear
+vi
+vi lua/editor/init.lua
+clear
+vi
+vi lua/editor/init.lua
+clear
+vi
+vi lua/editor/init.lua
+ls
+clear
+ls
+clear
+vi
+vi lua/editor/init.lua
+vi init.lua
+clear
+vi
+vi lua/editor/init.lua
+clear
+vi
+vi lua/editor/init.lua
+clear
+vi
+vi lua/editor/init.lua
+vi
+vi lua/options/
+vi
+vi init.lua
+clear
+vi
+vi lua/options/init.lua
+clear
+vi
+z plug-ins/
+z nvim
+vi lua/plug-ins/init.lua
+clear
+vi lua/editor/init.lua
+vi lua/options/init.lua
+clear
+vi lua/editor/
+z lua/editor/
+ls
+clear
+vi colorscheme/init.lua
+mkdir colorscheme
+z colorscheme/
+vi init.lua
+ls
+clear
+z ..
+vi init.lua
+vi colorscheme/init.lua
+vi
+vi colorscheme/init.lua
+vi
+vi colorscheme/init.lua
+clear
+vi 
+vi ../options/init.lua
+zed .
+ls
+z ..
+l
+gs
+open .
+vi
+z nvim
+ls
+clear
+vi
+vi init.lua
+vi
+vi init.lua
+clear
+ls
+clear
+vi
+vi lua/editor/colorscheme/init.lua
+clear
+vi
+vi init.lua
+clear
+vi
+vi lua/editor/colorscheme/init.lua
+clear
+vi
+vi lua/plug-ins/init.lua
+vi
+ls
+clear
+z tmp
+l
+clear
+mkdir config
+z config
+ls
+clear
+vi ayu.terminal
+ls
+z ala
+vi
+vi alacritty.toml
+ls
+clear
+l
+clear
+ls
+l
+z ..
+l
+clear
+vi alacritty/alacritty.toml
+clear
+z nvi
+ls
+clear
+ls
+clear
+fish
+ls
+l
+clear
+vi
+clear
+vi
+ls
+clear
+vi README.md
+vi init.lua
+ls
+clear
+git status
+git diff
+clear
+vi lua/plug-ins/init.lua
+clear
+vi lua/plug-ins/init.lua
+./lua/editor
+ls
+clear
+mkdir files
+vi files/init.lua
+ls
+clear
+vi init.lua
+vi files/init.lua
+vi
+l
+z ..
+l
+clear
+z ..
+z nvim
+z doc/nvim
+z docu
+z nvim/
+ls
+clear
+rm -rf .git
+ls
+clear
+zed .
+ls
+clear
+z nvim
+ls
+clear
+vi
+vi lua/key-bindings/init.lua
+ls
+clear
+vi init.lua
+vi lua/key-bindings/init.lua
+vi
+vi lua/key-bindings/init.lua
+clear
+gs
+ga .
+gsc 'update: add mini.files'
+vi
+clear
+vi
+vi init.lua
+ls
+vi
+vi init.lua
+clear
+vi
+clear
+vi
+clear
+vi
+ls
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+ls
+clear
+ls
+clear
+vi
+ls
+clear
+vi
+z nvi
+ls
+clear
+vi
+ls
+clear
+ls
+vi
+lsc
+ls
+clear
+z doc
+z nvim/
+ls
+clear
+vi
+exit
+l
+clear
+z nvim
+zed .
+tml
+clear
+tmk
+clear
+tml
+tmk
+tml
+tmd
+tml
+clear
+tml
+clear
+tmux kill
+tmux kill-server
+clear
+tml
+clear
+z doc
+ls
+clear
+rm -rf nvim
+ls
+clear
+z tmp
+ls
+clear
+git clone 'https://github.com/entropie72/old-nvim-config'
+ls
+clear
+vi old-nvim-config/
+zed .
+exit
+z olt
+z old
+z tmp
+z old-nvim-config/
+zed .
+z nvi
+ls
+clear
+vi
+z ala
+ls
+clear
+vi 
+ls
+clear
+z nvi
+ls
+clear
+vi
+ls
+clear
+vi 
+clear
+vi
+z ala
+ls
+clear
+vi 
+ls
+z nvi
+ls
+clear
+vi
+ls
+clear
+ls
+clear
+tiv
+vi
+clear
+vi
+z ala
+lc
+vi
+clear
+ls
+clear
+vi
+z nvi
+ls
+clear
+vi
+clear
+vi
+z ala
+ls
+clear
+vi
+clear
+vi
+clear
+z nvi
+ls
+clear
+vi
+z ..
+mv nvim .nvim
+l
+clear
+vi
+vi README.md
+mv .nvim nvim
+ls
+clear
+z nvi
+l
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z ala
+ls
+clear
+vi
+z nvi
+ls
+clear
+vi
+vi lua/options/init.lua
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z ..
+mv .nvim nvim
+mv nvim .nvim
+vi
+mv .nvim nvim
+clear
+z nvi
+ls
+clear
+vi
+clear
+vi
+z ala
+clear
+vi
+ls
+clear
+ls
+clear
+z nvi
+ls
+clear
+vi
+clear
+vi
+z ala
+vi
+ls
+clear
+z nvi
+ls
+clear
+vi
+clear
+vi
+clear
+z ala
+ls
+clear
+vi
+clear
+ls
+clear
+z ala
+z nvi
+ls
+clear
+vi
+clear
+z tmp
+l
+clear
+l
+clear
+z python/
+l
+z python_101/
+l
+clear
+vi main.py
+clear
+z nvi
+ls
+clear
+git diff
+gs
+git diff lua/plug-ins/init.lua
+clear
+git add .
+gsc 'update: regular update'
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+gs
+git add lua/key-bindings/
+gsc 'update(key-bindings): add buffer navigation'
+clear
+gs
+clear
+git diff
+vi
+clear
+vi
+clear
+z menu
+vi
+z nvi
+ls
+clear
+vi
+clear
+git diff
+git status
+clear
+git diff lua/plug-ins/init.lua
+clear
+vi
+clear
+vi
+clear
+ls
+clear
+vi
+ls
+clear
+git status
+vi
+clear
+vi
+vi lua/editor/move/init.lua
+vi
+clear
+vi
+clear
+l
+clear
+git diff
+clear
+git status
+git add .
+gsc 'update: add mini.icons & mini.move'
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+ga .
+gsc 'update: add mini.notify'
+clear
+vi
+clear
+git add .
+gsc 'update(key-bindings): add Pick buffers'
+clear
+vi
+clear
+mv lua/lsp/ lua/code/
+gsc 'update: rename to "code" from "lsp"'
+ga .
+gsc 'update: rename to "code" from "lsp"'
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clea
+clear
+vi
+clear
+vi
+clear
+vi
+celar
+clear
+vi
+clear
+nvim --version
+git status
+git add .
+gsc 'update: add mason, lspconfig & mini.completion'
+clear
+brew outdated
+brew install neovim --HEAD
+clear
+brew uninstall neovim
+brew install neovim --HEAD
+nvim
+clear
+ls
+clear
+ls
+clear
+$env.PATH
+z 
+mkdir .bin
+clear
+$env.PATH
+z path
+z nus
+ls
+clear
+vi
+vim env.nu
+clear
+ls
+clear
+z .bin
+z down
+xattr -c ./nvim-macos-x86_64.tar.gz
+xattr -c /Users/hao/Downloads/nvim-macos-arm64.tar.gz
+ls
+clear
+z
+clear
+z .bin
+mv '/Users/hao/Downloads/nvim-macos-arm64/bin/nvim' .
+ls
+clear
+nvim
+nvim 
+z nvi
+ls
+clear
+nvim
+vi
+clear
+z .bin
+./nvim
+clear
+rm -rf nvim
+brew install neovim --HEAD
+nvim
+clear
+brew install neovim
+nvim --version
+clear
+vi
+clear
+vi
+z nvi
+ls
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+ls
+vi
+clear
+speedtst
+speedtest
+ls
+clear
+vi
+clear
+git status
+git add .
+gsc 'update: add blink.cmp'
+clear
+vi
+whereis tree-sitter
+clear
+brew uninstall tree-sitter
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+yt-dlp -f140 'https://www.youtube.com/watch?v=gnwfWTCZPEw'
+open .
+vi
+clear
+tml
+clear
+tmk
+tml
+cldar
+celar
+clear
+exit
+ls
+clear
+z farra
+open .
+clear
+exit
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z tmp
+ls
+clear
+open .
+zed .
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+ga .
+gsc `update(blink.cmp): add configs for blink.cmp`
+clear
+z vue
+clear
+z menu
+ls
+clear
+vi
+clear
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z tmp
+l
+clear
+z bun/
+l
+clear
+vi
+clear
+vi
+z nvi
+vi
+clear
+vi
+clera
+vi
+clear
+vi
+clear
+vi
+cearl
+clear
+vi
+z bun
+vi
+clear
+z nvi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z ts
+clear
+z bun
+vi
+clear
+z ts
+z nvi
+git status
+git add blink/init.lua
+vi
+clear
+vi
+z bun
+vi
+clear
+z nvi
+vi
+clear
+z bun
+vi
+clear
+z nv
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+l
+clear
+git status
+git diff init.lua
+git diff lua/code/blink/init.lua
+git add lua/code/blink/init.lua
+gsc 'update(blink.cmp): enable auto_brackets'
+clear
+gs
+git add .
+clear
+gsc 'update(code): add treesitter & config for ts_ls & lua_ls'
+clear
+z nvi
+ls
+clear
+vi
+clear
+vi
+clear
+git add .
+gsc 'update: add mini.pairs'
+clear
+vi
+clear
+vi
+clear
+gs
+ga .
+gsc 'update: add indentmini'
+clear
+vi
+clear
+vi
+clear
+git diff
+git add .
+gsc 'update(treesitter): regular update'
+c
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+git add .
+gs
+gsc 'update: add lualine'
+clear
+vi
+clear
+gs
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+clear
+l
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z bun
+clear
+z nvi
+ls
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+exit
+exit
+tmux
+clear
+nvim
+z nvim
+ls
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+cleras
+clear
+vi
+clear
+git status
+clear
+vi
+clear
+gd
+git diff
+clear
+ga .
+gsc 'update: custom lualine, indentmini & regular update'
+clear
+vi
+c;ear
+clear
+gs
+clear
+vi
+gs
+clear
+git diff
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+gs
+git add .
+gsc 'update: add gitsigns config'
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z tmp
+ls
+clear
+vi hello.http
+clear
+z nvi
+vi
+ls
+clear
+z tmp
+tmux
+exit
+vi
+clear
+z tmp
+vi
+exit
+vi
+clear
+vi hello.http
+clear
+vi hello.http
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z tmp
+vi
+clear
+z -
+vi
+vi
+clear
+vi
+clear
+exit
+z tmp
+slc
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+clear
+z tmp
+z bun
+vi
+exit
+vi
+exit
+vi
+clear
+z ala
+vi
+clear
+vi
+clear
+vi
+z nvi
+vi
+clear
+ls
+git diff
+clear
+z ..
+git status
+vi .gitignore
+git add .
+gsc 'update(alacritty): add option_as_alt (<option> key behavior)'
+clear
+gp
+clear
+z nvi
+ls
+clear
+gs
+clear
+vi
+voi
+vi
+clear
+exit
+git add .
+gsc 'update: add kulala (http-client)'
+clear
+z tmp
+z bun
+vi
+z nvi
+vi
+clear
+z tmp
+vi
+z bun
+vi
+clear
+exit
+vi
+gs
+git diff
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+gs
+clear
+git add .
+gsc 'update: add noice.nvim'
+clear
+vi
+clear
+vi
+clear
+vi
+exit
+tma
+clear
+tml
+clear
+brew lis
+whereis tmux
+tmux --version
+tmux version
+fish
+clear
+exit
+ls
+clear
+z nvi
+ls
+clear
+gs
+git diff
+clear
+git add .
+gsc 'update: regular update'
+gsc 'refactor(noice): move noice config to independence file'
+vi
+clear
+vi
+z tmp
+vi
+clear
+vi
+clear
+vi
+clear
+z nvi
+gs
+clear
+cp .local/share/nvim/site/pack/deps/opt/nvim-notify/doc/nvim-notify.txt ~/
+open .
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+gs
+clear
+git add .
+gsc 'update(noice): disable noice notify'
+vi
+clear
+viu
+vi
+clear
+vi
+clear
+z bun
+vi
+clear
+ls
+clear
+z nvi
+vi
+clear
+git add .
+gs
+gsc 'update: add conform.nvim'
+clear
+vi
+clear
+vi
+clear
+l
+clear
+gs
+git add .
+gsc 'update: add ts-comments'
+clear
+gh repo
+clear
+gh repo create
+clear
+ls
+clear
+git remote add origin
+git remote add 'https://github.com/entropie72/nvim-config'
+clear
+git remote add origin git@github.com:entropie72/nvim-config.git
+clear
+git branch -M main
+git push -u origin main
+ls
+clear
+ls
+clear
+vi
+z downl
+lc
+vi
+z comp
+vi
+clear
+z nvi
+tldr
+clear
+ls
+clear
+rio --version
+clear
+tldr tmux
+vi
+tmux --help
+clear
+man tmux
+z 
+clear
+vi .tmux.conf
+clear
+exit
+tmux
+clear
+vi .tmux.conf
+clear
+l
+clear
+ls -a
+z .config
+l
+z tmux
+l
+clear
+vi
+clear
+vi
+z nvi
+ls
+clear
+vi
+clear
+vue-language-server 
+whereis vue-language-server
+clear
+ls
+clear
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+l
+gs
+gsc 'update: remove mason'
+ga .
+gsc 'update: remove mason'
+clear
+gp
+clear
+vi
+clear
+brew install lua-language-server
+clear
+vi
+clear
+vi
+z nvi
+ls
+clear
+vi
+clear
+ls
+clear
+gs
+clear
+vi
+git diff
+vi
+clear
+vi
+z bun
+vi
+clear
+z nvi
+lc
+clear
+gs
+clear
+vi
+exit
+ls
+clear
+z menu
+l;s
+clear
+vi
+clear
+bun i -g @biomejs/biome
+biome
+clear
+whereis biome
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+gs
+clear
+git add lua/key-bindings/init.lua
+gsc 'update(key-bindings): add keymap for :bd!'
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z bun
+vi
+clear
+vi
+z nvi
+vi
+clear
+z ts
+z bun
+vi
+clear
+z menu
+l
+vi
+clear
+vi
+clear
+vi
+z icond
+z icons
+ls
+clear
+open .
+ls
+clear
+z doc
+z Sites/
+ls
+clear
+z Start/
+ls
+clear
+vi
+z niv
+z nvi
+vi
+z ts
+ls
+clear
+vi
+z site
+vi
+clear
+vi
+z nvi
+vi
+clear
+vi
+z start
+vi
+clear
+z nvi
+vi
+clear
+vi
+z bun
+vi
+clear
+z nvi
+vi
+z bun
+vi
+clear
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+z start
+vi
+clear
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+z start
+vi
+z nvi
+vi
+z star
+vi
+clear
+z vue
+z menu
+vi
+z nvi
+vi
+z menu
+vi
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z ala
+vi
+clear
+ls
+vi
+w
+clear
+ls
+clear
+vi
+clear
+ls
+clear
+z nvi
+vi
+clear
+z ala
+l
+gs
+git add .
+gsc 'update(alacritty): add glyph_offset'
+l
+gs
+clear
+l
+gs
+git status
+l
+clear
+z ..
+gs
+ls
+clear
+vi .gitignore
+vi
+ls
+gs
+vi .gitignore
+clear
+l
+gs
+git add .
+gsc 'chore(gitignore)'
+clear
+z nvi
+lc
+clear
+ls
+l
+ls
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z nvi
+vi
+clear
+vi
+clear
+z start
+vi
+z nvi
+vi
+clear
+vi
+clear
+z -
+vi
+clear
+z nvi
+vi
+clear
+vi
+clear
+open .
+z ..
+clear
+z
+clear
+z .config
+git clone 'https://github.com/LazyVim/LazyVim'
+mv LazyVim/ nvim
+vi
+rm -rf nvim
+git clone https://github.com/LazyVim/starter
+vi
+clear
+l
+mv starter/ nvim
+vi
+z nvim
+ld
+ls
+clear
+vi
+clear
+z ..
+rm -rf nvim
+ls
+clear
+mv bak/nvim/ ./nvim
+l
+clear
+vi
+z nvi
+iv
+vi
+clera
+vi
+l
+clear
+vi
+clear
+vi
+clear
+vi
+vi lua/code/treesitter/init.lua
+vi
+vi init.lua
+clear
+vi
+ls
+clear
+vi
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+mv lua/options/_init.lua ~/Downloads/
+clear
+git status
+clear
+ga .
+gsc 'fix(indent): fix cursor error/behavior'
+clear
+gp
+clear
+z start
+vi
+z nvi
+vi
+clear
+z start
+vi
+clear
+z nvi
+vi
+z start
+vi
+z nvi
+vi
+clear
+z start
+vi
+clear
+vi index.ts
+clear
+z nvi
+ls
+clera
+vi
+z start
+vi
+clear
+z nvi
+vi
+clear
+vi
+z start
+vi
+clear
+vi
+clear
+l
+rm -rf index.ts IMG_1927.jpeg youtube.icns
+l
+clear
+ls
+clear
+speedtest
+tml
+clear
+exit
+vi
+clear
+exit
+tma
+ls
+z nvi
+clear
+vi .gitignore
+vi
+clear
+z bun
+ls
+vi .gitignore
+vi
+clear
+vi
+vi .rg
+clear
+vi
+vi .gitignore
+vi .rg
+clear
+vi
+vi .rg
+vi
+clear
+ls
+clear
+vi .ripgreprc
+clear
+vi
+z nvi
+vi
+z bun
+vi
+z
+vi .ripgreprc
+z bun
+vi
+z 
+vi .ripgreprc
+clear
+vi
+z bun
+vi
+z 
+vi .ripgreprc
+clear
+z nu
+vi
+z nu
+vi
+clear
+vi
+clear
+z ts
+z bun
+vi
+clear
+z
+vi .ripgreprc
+clear
+z bun
+vi
+$env.RIPGREP_CONFIG_PATH
+z nu
+vi
+z bun
+vi
+clear
+ls
+clear
+rg index
+rg fast
+rg --file index
+ls
+rg --file reade
+rg --file read
+rg --file READ
+ls
+ciear
+vi
+clear
+rg --files read
+rg --files ind
+clear
+whereis rg
+clear
+z
+clear
+rg --files Dow
+rg --files Downloads
+clear
+z Downloads/
+rg --files he .
+l
+clear
+rg --files tool .
+clear
+z doc
+l
+clear
+rg --files menu .
+clear
+ls
+clear
+z
+mv .ripgreprc ./.config/ripgrep
+ls
+clear
+l
+clear
+z .config/
+l
+vi ripgrep
+rm -rf ripgrep
+l
+clear
+ls -a
+clear
+z
+clear
+z nu
+vi
+zed .
+l
+z .config/
+l
+clear
+mkdir ripgrep
+l
+clear
+z ripgrep/
+vi .ripgreprc
+clear
+z bun
+vi
+z confi
+l
+clear
+z nvi
+z bun
+vi
+clear
+z rip
+vi
+vi .ripgreprc
+clear
+z rip
+vi
+l
+z
+clear
+l
+clear
+z Downloads/
+l
+rg -l undle
+clearclear
+clear
+l
+rg -l 8swy
+rg -l 8swyl1
+rg -l 8swyl1.ipa
+rg IMG_
+rg -l IMG_
+rg -l IMG_1927
+rg -l IMG_1927.jpeg
+z nvi
+ls
+clear
+z rip
+vi
+clear
+z bun
+ls
+clear
+vi
+l
+clear
+vi
+z rip
+vi
+z bun
+l
+vi
+z rip
+ls
+clear
+vi
+z bun
+vi
+clear
+z rip
+ls
+clear
+vi
+clear
+z bun
+vi
+z doc
+vi
+rg down
+clear
+ls
+clear
+z bun
+l
+clear
+vi const
+rg const
+rg -l index
+rg -l index.ts
+rg -l const
+clear
+rg -files const
+rg -files index .
+rg -files index.ts .
+rg -files . ind
+fd index
+rg -t index
+clear
+rg index -t
+z .config
+l
+clear
+mkdir fd
+z fd
+l
+mkdir ignore
+z ignore/
+l
+clear
+vi .fdignore
+clear
+z bun
+fd index
+z fd
+l
+z ignore/
+l
+z ..
+rm -rf ignore
+clear
+l
+vi .fdignore
+z t
+z fd
+z bun
+fd index
+z fd
+mkdir ignore
+l
+mv .fdignore ignore/
+l
+clear
+z ignore/
+l
+clear
+z bunt
+z bun
+l
+clear
+fd index
+z fd
+vi
+z ..
+rm -rf fd
+z 
+clear
+vi .fdignore
+clear
+z
+z bun
+fd index
+z down
+yt-dlp -f140 'https://www.youtube.com/watch?v=kncTDoCPxxQ'
+yt-dlp -f140 'https://www.youtube.com/watch?v=dR_3g5WCdHs&list=PL8AbgDrnZgXC_L1NhRzvOnCBHhNCU8Ci-'
+ls
+clear
+ls
+clear
+vi
+ls
+clear
+z Downloads/
+ls
+vi
+clear
+lc
+ls
+l
+z gpg
+l
+zssh
+l
+.ssh
+l
+open .
+ls
+clear
+ls
+z tmp
+l
+clear
+xh hello.http
+clear
+brew list
+brew outdated
+brew install ruff
+clear
+brew outdate
+brew outdated
+z nu
+vi
+z nu
+zed .
+$env.config
+clear
+$env.XDG_CONFIG_HOME
+ls
+clear
+ls
+clear
+z nvi
+ls
+clear
+gs
+git diff
+clear
+vi
+clear
+ga .
+gsc 'update: use indentmini'
+clear
+gp
+z nvi
+vi
+clear
+l
+clear
+gs
+ga .
+gsc 'update(lsp): add ruff'
+clear
+vue-language-server 
+clear
+bun i -g vue-language-server
+z bun
+l
+z bun
+l
+clear
+open 
+open .
+clear
+brew install pnpm
+clear
+pnpm -g i @vue/language-sever
+pnpm setup
+pnpm setup --force
+source /Users/hao/.config/fish/config.fish
+clear
+z nu
+zed .
+clear
+z fish
+ls
+clear
+pnpm 
+clear
+pnpm -g i @vue/language-sever
+z .local
+z share/
+l
+clear
+mkdir pnpm
+ls
+clear
+ls
+clear
+z
+clear
+z ~/Library/pnpm
+l
+z ..
+rm -rf pnpm
+ls
+clear
+z
+z nu
+ls
+clear
+pnpm
+clear
+pnpm setup
+z fish
+vi
+clear
+pnpm -g i @vue/language-server
+clear
+z
+z menu
+ls
+clear
+vi
+clear
+z nvi
+vi
+z rip
+vi
+clear
+z 
+z nvi
+z
+z pnpm
+z .local/share/pnpm/
+l
+pnpm -g i typescript typescript-language-server
+clear
+z bun
+ls
+clear
+zbun
+z bun
+rm -rf *
+clear
+clearexit
+exit
+pnpm -g list
+z pnp
+ls
+clear
+open .
+vi
+clear
+vi
+clear
+z menu
+vi
+clear
+exit
+exit
+tmux
+z menu
+vi
+ls
+z nvi
+vi
+clear
+vi
+z menu
+vi
+z -
+vi
+vue-language-server 
+vue-language-server --stdio
+clear
+vi
+z vue
+ls
+clear
+z menu
+vi
+z nvi
+vi
+clear
+vi
+tml
+/usr/
+loca/
+local/
+lib
+lib/
+clear
+node_modules/
+z pnpm
+vi
+l
+open .
+exit
+vi 
+clear
+vi
+z nvi
+vi
+z nvi
+z ~/Library/
+l
+clear
+z
+z pnpm
+ls
+clear
+z store
+l
+open .
+clear
+bun i -g @/language-server
+bun i -g @vue/language-server
+z bun
+ls
+clear
+z bun
+l
+clear
+open .
+exit
+pnpm -g list
+z pnpm
+l
+rm -rf *
+clear
+l
+clear
+z
+pnpm -g list
+clear
+bun i -g typescript typescript-language-server
+clear
+ls
+clear
+brew uninstall pnpm
+clear
+open .
+exit
+vi
+clear
+vi
+clear
+z menu
+vi
+z nvi
+z bun
+ls
+clear
+open .
+l
+z install/
+l
+clear
+z global/
+l
+clear
+z node_modules/
+fd typescript
+z typescript/
+l
+z lib
+l
+clear
+pwd
+pwd | pbcopy
+exit
+vi
+clear
+z menu
+vi
+clear
+znvi
+exit
+vi
+ls
+clear
+tmla
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+vi lua/options/init.lua
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z nvi
+vi
+clear
+vi
+clear
+z menu
+vi
+z nvi
+vi
+clear
+vi
+clear
+vi lua/editor/pick/init.lua
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+zed .
+z menu
+vi
+z bun
+ls
+clear
+vi
+clear
+vi
+bun i -g @biomejs/biome
+clear
+vi
+z nvi
+vi
+clear
+z bun
+vi
+z nvi
+vi
+clear
+vi
+z bun
+vi
+clear
+z nvi
+vi
+clear
+vi
+gs
+git add lua/code/lsp/volar/init.lua
+gs
+gs lua/code/lsp
+gs lua/code/lsp/*
+gs
+z lua/code/lsp/
+l
+clear
+gs .
+ga .
+z ..
+l
+clear
+z ..
+gs
+gsc 'update(lsp): add volar'
+clear
+ga .
+gsc 'update: regular update'
+clear
+gp
+clear
+z menu
+vi
+clear
+vi
+z nvi
+vi
+clear
+z menu
+vi
+z nvi
+vi
+clear
+z menu
+vi
+clear
+vi
+z nvi
+vi
+clear
+z
+clear
+bun i -g @olrtg/emmet-language-server
+z nvi
+vi
+clear
+vi
+z start
+vi
+clear
+z nvi
+vi
+z menu
+vi
+z bun
+ls
+clear
+z ..
+l
+clear
+bun create vite
+clear
+z vue
+ls
+z ..
+mv vue tmpvue
+ls
+clear
+z tmpvue
+ls
+clear
+bun i
+l
+vi
+clear
+z nvi
+vi
+z nu
+ls
+clear
+zed .
+z
+z .bin
+l
+clear
+open .
+clear
+superhtml 
+exit
+z start
+vi
+superhtml help
+vi
+z tmpvue
+vi
+z nvi
+vi
+l
+vi index.html
+z tmpvue
+ls
+clear
+vi tsconfig.app.json
+vi
+exit
+bunx biome format
+clear
+bunx biome format ./src/App.vue --write
+vi
+open .
+cat src/App.vue
+clear
+bunx biome format ./src/App.vue --write
+cat src/App.vue
+clear
+zed .
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+exit
+clear
+ls
+clear
+vi
+vi
+clear
+clear
+vi
+vi
+clear
+z vue
+vi
+clear
+vi
+z nvi
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+vi
+git status
+clear
+ga .
+gsc 'update(lsp): fix volar/typescript & add emmet'
+clear
+gp
+clear
+vi
+clear
+vi
+clear
+vi
+z nvi
+z -
+vi
+clear
+vi
+exit
+z tmp
+ls
+clear
+git clone 'https://github.com/vuejs/language-tools'
+z language-tools/
+clear
+l
+clear
+fd snip
+z language-tools/
+z langu
+l
+clear
+fd emmet
+fd section
+l
+ls
+clear
+ls
+clear
+rg section
+clear
+rg acronym
+rg figcaption
+ls
+clear
+z vue
+vi
+clear
+z nvi
+vi
+gs
+clear
+vi
+clear
+vi
+clear
+z vue
+vi
+z nvi
+vi
+clear
+vi
+clear
+z vue
+vi
+clear
+vi
+exit
+tma
+z nvi
+vi
+z vue
+vi
+clear
+z nvi
+vi
+clear
+bi
+vi
+clear
+z vue
+vi
+z tmp
+git clone 'https://github.com/Saghen/blink.cmp'
+z blink.cmp/
+ls
+clear
+rg ${0}
+rg '${0}'
+clear
+z nvue
+z vue
+ls
+clear
+vi
+vi .
+zd .
+zed .
+z nvi
+vi
+clear
+z nvi
+vi
+z nvi
+vi
+clear
+vi
+clear
+z vue
+vi
+clear
+z 
+ls
+clear
+z config
+ls
+clear
+z lsp
+ls
+clear
+vi snippets.json
+clear
+z vue
+vi
+clear
+vi
+z nvi
+vi
+clear
+vi
+vi
+l
+clear
+vi lua/code/lsp/snippets.json
+clear
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+z ts
+z bun
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+ls
+clear
+z langua
+ls
+clear
+ls
+vi
+ls
+clear
+vi
+vi
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z vue
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+z lang
+vi
+vi
+clear
+vi
+l
+clear
+z vue
+ls
+clear
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+vi
+bun -g i svelte-language-server
+clear
+z menu
+ls
+clear
+z reci
+l
+clear
+vi
+clear
+bun -g i @vue/languge-tool
+vue-language-server --version
+bun -g i @vue/languge-tool@2.1.4
+bun -g i @vue/languge-server@2.1.4
+bun -g i @vue/languge-server
+bun i -g @vue/language-server
+bun i -g @vue/language-server@2.1.4
+clear
+vue-language-server --version
+clear
+z vue
+ls
+clear
+vi
+bun i -g @vue/language-server
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z start
+vi
+vi
+clear
+vi
+clear
+z vue
+vi
+vi
+clear
+clear
+vi
+clear
+vi
+lear
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+vi
+ls
+clear
+vi
+vi
+clear
+bun i -g @vue/language-server@1.8
+clear
+vue-language-server --version
+clear
+vi
+vi
+clear
+vi
+clear
+brew upgrade zed
+clear
+ls
+clear
+vi
+vi
+clear
+brew outdated
+brew upgrade *
+vi
+brew upgrade gh python@3.13 sqlite yazi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+gs
+git add .
+gsc 'update(lsp): major changes, included lsp, volar, etc.'
+gsc 'update(lsp): major changes for blink.cmp, lsp & volar'
+clear
+gp
+vi
+clear
+vi
+clear
+ga .
+gsc "chore: disable blink's ghost text"
+clear
+gp
+vi
+clear
+vi
+viu
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z reci
+vi
+bun i -g @tailwindcss/language-server
+clear
+vi
+clear
+vi
+gs
+git add .
+clear
+gsc "refactor(lsp): change LSP subfolder's name to language's name"
+clear
+vi
+clear
+z svel
+z reci
+vi
+z nvi
+clear
+v
+vi
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+gs
+git add .
+gsc 'update(lsp): add tailwindcss'
+gp
+clear
+ls
+vi
+rust-analyzer 
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+z vue
+vi
+./Users/hao/Downloads/stockfish/stockfish-macos-m1-apple-silicon 
+z Downloads/
+z stockfish/
+loc
+./stockfish-macos-m1-apple-silicon
+clear
+ls
+clear
+z /Volumes/
+ls
+clear
+z hao-transcend/
+l
+clear
+fd nmt
+z _Backups/macos_20240714/Documents/Freelances/
+open .
+brew install czkawka
+docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable
+brew list
+brew install --cask rustdesk --HEAD
+brew install --cask rustdesk
+z key
+open .
+z key
+z down
+yt-dlp -f140 'https://www.youtube.com/watch?v=kzDskFVdyQw'
+open .
+uv self upgrade
+z tmp
+l
+clear
+l
+z python/
+l
+uv install maigret
+uv pip install maigret
+uv pip install maigret --system
+clear
+brew list
+brew remove
+brew rm python*
+brew rm python@3.12
+brew rm python@3.13
+pip3 list
+pip3 install maigret
+clear
+l
+clear
+z python_101/
+l
+clear
+uv install maigret
+uv pip install maigret
+uv venv
+overlay use .venv/bin/activate.nu
+clear
+z
+clear
+pip3 install maigret
+uv pip install maigret
+maigret
+exit
+uv venv
+overlay use .venv/bin/activate.nu
+clear
+ls
+brew list
+clear
+python --version
+clear
+exit
+overlay list 
+clear
+python --verison
+python --version
+clear
+ls
+clear
+maigret
+.orbstack/
+l
+z shell
+l
+clear
+z ..
+z bin
+l
+z
+orb
+clear
+docker pull soxoj/maigret
+clear
+resign /Applications/Klack.app/
+brew install lihaoyun6/tap/topit
+clear
+brew install lihaoyun6/tap/xhistory
+l
+history
+clear
+l
+z .zsh_sessions/
+z
+clear
+vi .zsh_history
+z nu
+l
+z nu
+clear
+l
+clear
+pwd | pbcopy
+z tmp
+l
+z /tmp
+l
+open .
+/tmp
+l
+oprn .
+open .
+Downloads/
+l
+open .
+/tmp
+l
+open .
+brew list
+brew list | fd neo
+clear
+brew list | rg neo
+clear
+brew install loop
+clear
+z Library/Application Support/
+z sup
+z u-he/Themes/
+l
+clear
+open .
+z lib
+z Application Support/
+ls
+clear
+z ../u-he/
+ls
+clear
+open .
+ls
+clear
+z app
+z u-he/Themes/
+open .
+fd
+clear
+vi .fdignore
+fd
+vi
+vi .fdignore
+clear
+fd
+z /Library/
+clear
+z Mobile Documents/
+l
+z ..
+l
+z iclou
+z mob
+clear
+z
+clear
+z mobile
+z
+clear
+z mobi
+open .
+vi ~/.fdignore
+clear
+vi
+clear
+z
+clear
+fd
+vi .fdignore
+clear
+fd
+vi
+vi .fdignore
+clear
+resign /Applications/Cardhop.app/
+brew install lulu
+z /Library/
+resign /Applications/LuLu.app/
+cd /Applications/DNSMonitor.app/Contents/MacOS/
+cd /Applications/
+brew uninstall lulu
+clear
+ls
+clear
+sudo nvim /etc/hosts
+ls
+clear
+brew outdated
+ls
+clear
+brew outdated
+brew upgrade node numpy treee-sitter uv yazi eza
+brew upgrade node numpy tree-sitter uv yazi eza
+z Doc
+z hao_2025
+ls
+clear
+z Obsidian/
+z hao_2025
+ls
+clear
+git init
+clear
+ls
+clear
+vi .gitignore
+vi hello_2025.md
+clear
+rm hello_2025.md
+clear
+gs
+ga .
+gsc 'initial commit'
+ls
+clear
+l
+z Desktop/
+l
+mv .Archived.ics _Archived_Cal_20241212.ics
+open .
+z obdi
+ls
+clear
+z obsid
+ls
+clear
+ls
+clear
+vi
+clear
+ls
+clear
+z hao_2024/l
+z hao_2024/
+l
+z Downloads/
+ls
+clear
+chmod +x json-language-server-darwin-aarch64
+./json-language-server-darwin-aarch64
+clear
+open .
+ls
+clear
+./json-language-server-darwin-aarch64
+open .
+clear
+z nvi
+vi
+clear
+z vue
+vi
+clear
+bunx biome format ./tsconfig.json
+clear
+l
+vi hello.json
+clear
+vi
+clear
+vi
+biome hello.json
+biome format hello.json
+biome format tsconfig.app.json
+z Applications/
+l
+clear
+z app
+l
+clear
+resign TickTick.app/
+etc
+fzf
+sk
+clear
+brew install fzf
+clear
+brew list
+xh --version
+clear
+brew list
+clear
+vue-language-server --version
+ldfl
+brew install fzf
+clear
+fzf
+clear
+z nu
+zed .
+clear
+z overloud
+z supp
+l
+z Overloud/
+l
+z Gem Comp LA/
+l
+z Gem Comp LA/
+z 'Gem Comp LA'
+l
+z supp
+z sup
+ls
+clear
+z Overloud/
+l
+pwd
+z ..
+clear
+fd *.ol2
+fd .ol2
+z Overloud/Gem
+clear
+clea
+z
+clear
+fzf
+clear
+skim
+sk
+clear
+z 
+~/Library/
+z Application Support/
+l
+clear
+z overloud
+pwd
+z GEM
+L
+l
+z ..
+l
+clear
+z
+fzf
+z /Library/
+z Application Support/
+pwd
+z /Library/
+z Application Support/
+z
+clear
+z /Library/
+cd `./Application Support/Overloud/`
+l
+z GEM
+z
+z ~/Library/
+z ./Application Support/
+./Application Support/
+cd `Application Support/`
+l
+cd Overloud/
+ls
+clear
+cd GEMs
+ls
+open .
+sudo nvim /etc/hosts
+z ~/Library/
+l
+clear
+z sup
+z supp
+z Overloud/
+pwd
+z GEMS/
+ls
+open .
+z gems
+vi
+open .
+l
+ifconfig
+/sbin/ifconfig
+/sbin/ifconfig | rg ether
+/sbin/ifconfig | rg f8:4d:89:95:c6:e4
+z gems
+l
+clear
+open .
+z ~/Library/Application Support/
+z '~/Library/Application Support/'
+z Overloud/
+l
+rm -rf TH-U/
+cd `/Library/Application Support/Overloud/TH-U/`
+l
+z ..
+rm -rf TH-U/
+sudo rm -rf TH-U/
+cd `./Library/Application Support/Overloud/TH-U/`
+cd `./Library/Application Support/Overloud`
+pwd
+ls
+mkdir TH-U/
+cd TH-U/
+ls
+pwd
+open .
+z ob
+z obsid
+ls
+clear
+z hao_2024
+ls
+clear
+vi .obsidian/
+clear
+vi
+clear
+z ..
+z hao_2024/l
+z hao_2024/
+l
+rm -rf .haptic
+clear
+l
+z .obsidian/
+l
+clear
+vui
+vi
+clear
+z
+z 2024
+ls
+clear
+tml
+z ../hao_2025
+ls
+clear
+l
+clear
+z .obsidian/
+l;
+clear
+vi
+vi
+clear
+ls
+clear
+z 2024
+vi
+fd tmux
+skim
+clear
+sk
+fd
+fzf
+z 98 - media/
+l
+z '98 - media/'
+ls
+clear
+open .
+z
+clear
+z 2024
+ls
+clear
+z .obsidian
+ls
+vi
+clear
+vi
+l
+open .
+l
+clear
+l
+z plugins/
+l
+open .
+vi
+clear
+vi
+clear
+vi
+clear
+l
+z ..
+l
+clear
+vi
+l
+vi
+l
+vi hotkeys.json
+clear
+ls
+clear
+vi templates.json
+z snippets/
+l
+vi snippets
+mkdir snippets
+l
+clear
+z snippets/
+l
+clear
+vi nhh_custom_html_element.css
+exit
+vi hao_custom.css
+bun i -g vscode-html-languageservice
+clear
+z
+clear
+z nvi
+z vue
+vi
+z html
+vscode-html-languageservice
+bun
+clear
+z bun
+l
+z bin
+ls
+z ../install/
+l
+open .
+vi
+vi
+emmet-language-server 
+emmet-language-server --version
+clear
+z .bun
+vi
+open .
+vi
+clear
+clear
+z af85
+open .
+vi
+z nvi
+vi
+clear
+z
+clear
+resign /Applications/CleanMyMac_5.app/
+z /Applications/
+l
+fd clean
+clear
+l
+/Applications/CleanMyMac_5.app/
+ls
+clear
+speedtes
+speedtest
+fd BearSansUI
+z
+z /
+fd BearSansUI
+z /Applications/Bear.app/Contents/Resources/
+l
+open .
+z Downloads/
+ls
+clear
+ls | where name =~ ZaDark
+./ZaDark 15.1.4 - Apple Chip
+sh ZaDark 15.1.4 - Apple Chip
+chmod +x ZaDark 15.1.4 - Apple Chip
+chmod +x 'ZaDark 15.1.4 - Apple Chip'
+clear
+mv `ZaDark 15.1.4 - Apple Chip` zadark
+./zadark
+ls
+clear
+l 
+clear
+exit
+z /Users/hao/Downloads/Hover.pro-TutFlix.ORG-Nathuram/Hover.dev-Templates-TutFlix.ORG/clean-neubrutalism-ts 
+l
+clear
+ls
+clear
+bun i
+clear
+bun dev
+clear
+z ..
+open .
+brew outdated
+bun upgrade bun
+bun update bun
+brew upgrade bun
+clear
+ollama
+clear
+ollama
+ollama list
+clear
+speedtest
+ollama list
+speedtest
+clear
+l
+clear
+sudo nvim /etc/hosts
+ls
+clear
+z onedr
+ls
+clear
+l
+z Courses/
+l
+z UI/
+l
+clear
+z Shift Nudge/
+l
+cd `Shift Nudge/`
+ls
+clear
+ls
+ln -s Core 'Shift Nudge Core'
+l
+open .
+clear
+z Doc
+l
+clear
+z Shortcuts/
+ls
+ln -s '/Users/hao/Library/CloudStorage/OneDrive-nhhao/Courses/Music/Instruments/Vulf Conservatory Joe Dart Bass Masterclass/Lecture 01 Signature Techniques' 'Vulf Bass Lecture 1'
+l
+clear
+l
+open .
+clear
+l
+ln -s '/Users/hao/Library/CloudStorage/OneDrive-nhhao/Courses/UI/Shift Nudge/Core' 'Shift Nudge Core'
+l
+clear
+ls
+clear
+resign /Applications/Logic Pro.app/
+resign '/Applications/Logic Pro.app/'
+clear
+ollama run Llama 3.2
+clear
+ollama run llama3.2:1b
+clẻa
+ollama list
+ollama run
+ollama run llama3.2:1b
+ls
+clear
+l
+ollama run llama3.2:1b
+z doc
+l
+z
+clẻa
+l
+z .ollama/
+l
+open .
+ollama  models/
+ollama rm
+ollama list
+ollama rm llama3.2:1b
+l
+z models/
+l
+z ..
+clear
+ollama 
+clear
+z vue
+ls
+clear
+l
+clear
+tml
+clear
+tma
+clear
+vi
+clear
+bun dev
+clear
+bun add radix-vue
+bun add @internationalized/date
+clear
+vi
+bun dev
+clear
+bun dev
+bun add @iconify/vue
+bun dev
+clear
+bun dev
+clear
+bun dev
+clear
+exit
+vi
+exit
+tmux
+ls
+clear
+z tmp
+l
+clear
+git clone 'https://github.com/adambard/learnxinyminutes-docs/tree/master'
+git clone 'https://github.com/adambard/learnxinyminutes-docs.git'
+z learnxinyminutes-docs/
+ls
+clear
+l
+zed .
+brew install limob
+brew install limbo
+clear
+limbo
+clear
+speedtest
+clear
+speedtest
+z one
+clear
+z oned
+l
+clear
+fd Proko
+fd SWAM
+clear
+pd proko
+speedtest
+clear
+speedtest
+z oned
+fd Spline
+ls
+clear
+vi
+clear
+brew outdated
+clear
+z learn
+l
+z vi
+l
+clear
+vi swift.swift
+swiftc 
+clear
+z tmp
+l
+clear
+mkdir swift
+z swift/
+l
+clear
+vi hello.swift
+clear
+vi
+clear
+swift hello.swift
+clear
+exit
+pake 'https://design.penpot.app' --hide-title-bar --icon /Users/hao/Downloads/f22ad62e83cbe34454f46627cd83e35b_Penpot.icns
+pake
+clear
+brew install pake
+clear
+z tmp
+pake 'https://design.penpot.app' --hide-title-bar --icon /Users/hao/Downloads/f22ad62e83cbe34454f46627cd83e35b_Penpot.icns
+z Downloads/
+./zadark
+ls
+clear
+z swift
+ls
+clear
+tm;
+tml
+clear
+exit
+swift hello.swift
+clear
+tmux
+vi
+gs
+clear
+vi
+tma -t 0
+clear
+tma -t 1
+clear
+ls
+clear
+l
+clear
+tml
+vi
+clear
+swift hello.swift
+clear
+swift hello.swift
+clear
+swift hello.swift
+clear
+swift hello.swift
+clear
+swift hello.swift
+speedtest
+clear
+exit
+y
+yazi
+yai
+yazi
+clear
+whereis yazi
+clear
+brew outdated
+ls
+clear
+ls
+clear
+wi
+clear
+y
+clear
+exit
+vi
+exit
+exit
+tma
+z nu
+zed .
+y
+:q
+clear
+y
+fish
+l
+clear
+y
+clear
+yazi
+yazi Labs/
+y
+clear
+y
+clear
+y
+clear
+fish
+l
+clear
+y
+swift --version
+clear
+swift --version
+clear
+z icon
+open .
+clear
+speedtest
+ls
+clear
+rio --version
+clear
+whereis rio
+brew outdated
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+z rio
+l
+z rio
+ls
+clear
+ls
+clear
+y
+z Downloads/
+git clone 'https://github.com/epk/SF-Mono-Nerd-Font'
+z SF-Mono-Nerd-Font/
+open .
+ls
+z rio
+ls
+z download
+git clone 'https://github.com/iaolo/iA-Fonts.git'
+clear
+clop
+clear
+.local
+bin
+bin/
+l
+clear
+./clop
+clear
+z
+clear
+z nu
+zed
+zed .
+y
+clear
+y
+clear
+y
+clop
+clear
+resign /Applications/superwhisper.app/
+vi
+z vni
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+swift build
+vi
+tml
+z swift
+vi
+vi
+brew install swiftlint
+clear
+swift init
+swift-init
+clear
+swift hello.swift
+vi
+vi
+swiftlint hello.swift
+vi
+brew install swiftformat
+swift format
+swift format hello.swift
+vi
+clear
+vi
+swift .
+swift hello.swift
+clear
+l
+sg
+gs
+git add .
+gsc 'update(lsp): add swift'
+clear
+gp
+clear
+exit
+exit
+tmux
+clear
+z config
+z ala
+vi
+exit
+clear
+vi
+l
+z colors/
+l
+mv github.toml github_dark.yml
+z ..
+vi
+alacritty migrate
+vi
+clear
+ls
+clear
+ls
+l
+fish
+ls
+clear
+z ala
+vi
+alacritty migrate
+clear
+vi
+ls
+clear
+fish
+clear
+vi
+ls
+clear
+z nvi
+vi
+z nvim
+ls
+clear
+z vue
+vi
+z nvi
+vi
+clear
+vi
+clear
+vi
+vi lua/editor/colorscheme/init.lua
+clear
+vi
+:q
+clear
+vi
+z nvi
+vi
+clear
+vi
+ls
+clear
+vi
+clear
+gs
+vi
+clear
+l
+gs
+git add .
+gsc 'update(colorscheme): add github_dark'
+clear
+gp
+clear
+ls
+clear
+z config
+ls
+clear
+z
+l
+z config
+ls
+vi starship.toml
+clear
+vi
+l
+clear
+vi starship.toml
+clear
+tml
+ls
+clear
+vi
+clear
+l
+clear
+exit
+z swift
+l
+z -
+clear
+z swi
+l
+clear
+vi
+clear
+ls
+clear
+git add .
+gs
+gsc 'update: regular update'
+z tmp
+z swift/
+vi Package.swift
+l
+clear
+l
+rm -rf Package.swift
+clear
+tml
+tmk
+tml
+clear
+z py
+l
+clear
+z python_101/
+l
+clear
+z config
+vi
+z bun
+l
+clear
+l
+exit
+vi
+z start
+z config
+vi
+clear
+l
+z tmp
+z python_10
+z swil
+z swi
+ls
+clear
+z config
+vi
+clear
+z swift
+l
+clear
+z - 
+vi
+clear
+vi
+clear
+ls
+clear
+z swil
+z swi
+z -
+vi
+clear
+z swi
+ls
+clear
+z 
+z config
+vi
+clear
+z swi
+ls
+clear
+z config
+vi
+clear
+l
+clear
+z swif
+z -
+vi
+z -
+vi
+l
+clear
+vi
+z -
+vi
+z -
+vi
+z -
+vi
+z -
+vi
+z -
+vi
+z -
+vi
+clear
+l
+vi
+z swi
+l
+clear
+z -
+vi
+z -
+l
+clear
+z -
+vi
+z python_10
+l
+z -
+z confi
+vi
+z swif
+z -
+vi
+z -
+vi
+z -
+vi
+z -
+z swi
+l
+clear
+vi Package.swift]
+l
+mv 'Package.swift]' 'Package.swift'
+l
+clear
+vi
+z config
+ls
+vi
+z -
+vi
+clear
+z -
+z python_10
+l
+z conf
+vi
+clear
+z swif
+l
+z -
+vi
+clear
+z
+clear
+z confi
+ls
+clear
+z nvi
+ls
+clear
+tml
+clear
+tml
+clear
+tma
+clear
+ls
+clear
+z ala
+z config
+vi
+clear
+z ala
+ls
+clear
+ls
+clear
+ls
+clear
+z swi
+l
+clear
+z
+clear
+z lab
+l
+z ala
+vi
+z rio
+l
+clear
+ls
+exit
+ls
+clear
+ls
+clear
+z lab
+ls
+z
+clear
+l
+z Labs
+ls
+clear
+z commandl_line_101/
+l
+z ..
+rm -rf commandl_line_101/
+ls
+clear
+ls
+clear
+mkdir front-end
+l
+clear
+z front-end/
+ls
+clear
+bun x nuxi@latest init
+l
+rm -rf nuxt-app/
+l
+clear
+bun x nuxi@latest init
+clear
+z nuxt-app/
+bun x nuxi@latest init
+clear
+l
+clear
+z ..
+mv nuxt-app/ nuxt
+ls
+clear
+z nuxt
+z ..
+mv nuxt/ nuxtlab/
+ls
+clear
+z nuxtlab
+ls
+clear
+tml
+clear
+ls
+clear
+exit
+bun run dev -o
+clear
+vi
+clear
+vi
+z rip
+ls
+clear
+l
+vi
+clear
+l
+clear
+z -
+ls
+clear
+vi
+clear
+ls
+clear
+z ..
+ls
+clear
+vite
+clear
+bun create vite
+clear
+z vanillab/
+l
+clear
+bun i
+ls
+clear
+vi
+bun run dev -o
+clear
+z vanill
+l
+clear
+ls
+clear
+ls
+clear
+vi
+bun dev
+clear
+bun add -d
+c
+clear
+bun add -d unocss
+clear
+l
+z
+clear
+z -
+vi
+clear
+l
+vi
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z nvi
+z -
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+z nvi
+zed .
+vi
+clear
+vi
+tml
+clear
+z
+ls
+clear
+exit
+vi
+clear
+vi
+z nvi
+ls
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+vi
+clear
+vi
+clear
+vi
+clear
+exit
+vi
+z niv
+z nvi
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+clear
+exit
+clear
+bun dev
+clear
+bun a @unocss/reset
+clear
+bun dev
+bun i animejs
+clear
+bun i animejs
+vi
+clear
+z ..
+rm -rf vanillab/
+ls
+clear
+l
+mkdir swift
+z swi
+z ..
+rm -rf swift/
+l
+clear
+z labs
+z sw
+z -
+z swift
+z -
+l
+clear
+z front-end/
+l
+rm -rf swift/
+z ..
+mkdir swift
+l
+ls
+clear
+z front-end/
+l
+clear
+l
+rm -rf vanillab/
+clear
+z nuxtlab/
+l
+bun dev
+clear
+z nuxt
+bun dev -o
+clear
+bun i motion
+z ..
+vi
+z nuxtlab/
+ls
+clear
+live-server 
+clear
+la
+ls
+clear
+vi
+z one
+z oned
+ls
+clear
+fd Animation
+clear
+fd Animations
+fd 'Animations'
+fd 'Animations on'
+z /Volumes/
+l
+clear
+z hao-transcend/
+l
+fd Animations
+z _Courses/
+z Frontend/
+l
+open 
+open .
+z hao-transcend/
+l
+open .
+tml
+clear
+exit
+tma
+ls
+clear
+z Labs/
+z front-end/
+l
+clear
+mkdir vanilla
+z vanilla/
+ls
+clear
+vi index.html
+vi
+bun i
+bun init
+clear
+vi
+l
+clear
+vi index.html
+l
+mv index.ts index.js
+clear
+vi
+mv index.js main.js
+live-server .
+clear
+bun dev
+bun run
+clear
+bun run index.html
+bun i motion
+live-server .
+vi
+exit
+vi
+clear
+resign /Applications/Stremio.app/
+clear
+l
+z .bin
+l
+mv /Users/hao/Downloads/TorrServer-darwin-arm64 .
+l
+clear
+ls
+exa
+eza
+clear
+eza -la
+chmod 777 TorrServer-darwin-arm64
+l
+eza -la
+clear
+./TorrServer-darwin-arm64
+clear
+z tmp
+git clone
+git clone https://github.com/AykutSarac/jsoncrack.com.git
+z jsoncrack.com/
+bun i
+clear
+bun i
+open .
+bun dev
+clear
+z ..
+rm -rf jsoncrack.com/
+z /Users/hao/Downloads/JTC Guitar Rodrigo Gouveia Neo Soul Fusion Masterclass TUTORiAL
+z '/Users/hao/Downloads/JTC Guitar Rodrigo Gouveia Neo Soul Fusion Masterclass TUTORiAL'
+l
+clear
+rm -rf ./*/*.jpg
+rm -rf ./*/*.mp3
+rm -rf ./*/*.ptb
+rm -rf ./*/*.pdf
+z '/Users/hao/Downloads/JTC Guitar Rodrigo Gouveia Neo Soul Fusion Masterclass TUTORiAL'
+rm -rf ./*/*.pdf
+z short
+ls
+clear
+ln -s '/Users/hao/Library/CloudStorage/OneDrive-nhhao/Courses/Frontend/BellaVideos' 'GSAP Bella'
+ls
+clear
+open .
+z one
+z oned
+fd React.GG
+clear
+z oned
+l
+clear
+fd React.GG
+ls
+clear
+tml
+tmk
+clear
+z vanill
+l
+vi
+rm -rf *
+l
+clear
+rm -rf .gitignore
+l
+clear
+vi index.html
+live-server .
+clear
+clear
+vi
+vi main.js
+z nvi
+vi
+clear
+vi
+vi
+clear
+exit
+bun i
+bun init
+live-server . --port 3000
+l
+bun run
+clear
+bun dev
+bun run index.html
+l
+rm-rf *
+rm -rf *
+clear
+clear
+ls
+clear
+vi index.html
+vi main.js
+vi
+clear
+z ..
+l
+clear
+vite create
+clear
+bunx create vite
+l
+bun x create vite
+clear
+bun create vite
+z vue
+bun i
+l
+vi
+clear
+z ..
+rm -rf vue
+live-server . --port 3000
+clear
+z ..
+bun create vite
+z vue
+bun i
+clear
+z vue
+bun dev
+clear
+bun i tailwindcss postcss autoprefixer -d
+bun x tailwindcss init -p
+clear
+l
+clear
+vi
+vi
+bun dev
+clear
+z nvi
+tmux
+zed .
+bun dev
+clear
+bun i motion
+bun dev
+bun add animejs
+clear
+vi
+zed .
+bun dev
+clear
+bun i gsap
+clear
+z nvi
+vi
+z vue
+ls
+clear
+vi
+z nvi
+vi
+clear
+z vue
+vi
+z nvi
+vi
+z nvi
+z vue
+vi
+z nvi
+vi
+clear
+z vue
+vi
+z nvi
+vi
+z vue
+vi
+z -
+vi
+z vue
+vi
+clear
+z svele
+z svel
+z nvi
+vi
+clear
+z vue
+vi
+z nvi
+vi
+clear
+vi
+z vue
+vi
+z nvi
+vi
+z vue
+vi
+exit
+z vue
+vi
+vi
+clear
+vi
+clear
+vo
+clear
+vi
+clear
+vi
+vi
+lear
+vi
+clear
+vi
+clear
+vi
+clear
+vi
+lear
+clear
+vi
+z vue
+vi
+exit
+exit
+tmux
+vi
+exit
+bun dev
+exit
+tma
+clear
+vi
+z vue
+vi
+z nvi
+vi
+clear
+z vue
+vvi
+vi
+z nvi
+vi
+clear
+z vue
+vi
+z nvi
+vi
+z vue
+vi
+z recipe
+vi
+clear
+z
+z nvi
+vi
+z vue
+vi
+z nvi
+vi
+clear
+vi
+z vue
+vi
+z nvi
+vi
+clear
+vi
+z vue
+vi
+z vi
+vi
+z vue
+vi
+clear
+vi
+clear
+vi
+z nuxt
+vi
+z nvi
+vi
+clear
+vi
+z vue
+vi
+z nvi
+vi
+z vue
+vi
+z nvi
+l
+exit
+$env.XDG_CONFIG_HOME
+echo $env.XDG_CONFIG_HOME
+$env.XDG_CONFIG_HOME
+exit
+z ala
+z ..
+gsc 'update(starship): restyling starship'
+gsc 'update(starship): restyling starship'
+clear
+ls
+clear
+ls
+clear
+ls
+gs
+git add ripgrep
+gs
+git add fish
+gsc 'update: regular update'
+clear
+gs
+git add ghostty/
+gsc 'update: add ghostty'
+clear
+gp
+z ghostty/
+z ala
+vi
+ls
+clear
+z gh
+vi
+brew install --cask ghossty
+brew install --cask ghostty
+sudo rm -rf /Applications/Ghostty.app/
+brew install --cask ghostty
+resign /Applications/Ghostty.app/
+ls
+clear
+sudo su
+clear
+sudo ls
+clear
+z gh
+vi
+z gh
+vi
+clear
+vi
+z gh
+vi
+z
+ghostty 
+ghostty +list-themes
+clear
+z gh
+vi
+l
+clear
+ls
+clear
+vi
+z nvi
+vi
+clear
+z nvi
+vi
+clear
+z ala
+vi
+ls
+clear
+ls
+clear
+z gh
+vi
+ls
+clear
+vi]
+iv
+clear
+vi
+z gh
+vi
+z gh
+vi
+z gh
+exit
+vi
+sudo ls
+clear
+gsc 'hl'
+clear
+l
+vi
+clear
+ls
+clear
+ghostty +list-actions
+clear
+z gh
+z ala
+vi
+tmux
+clear
+tmux
+clear
+tmux
+z gh
+vi
+vi
+clear
+ls
+clear
+vi
+clear
+vi
+z nvi
+vi
+clear
+l
+gs
+z ..
+clear
+l
+gs
+git add alacritty/key_bindings.toml
+gsc 'fix(alacritty): keybinding (super+j)'
+clear
+l
+clear
+gs
+git add ghostty/config
+gsc 'update(ghostty): add ghostty configurations'
+clear
+gs
+vi .gitignore
+clear
+gs
+git add .gitignore
+gsc 'update(.gitignore)'
+clear
+gs
+rm -rf zed
+clear
+gs
+git add .
+clear
+gsc 'update: regular update'
+clear
+ls
+clear
+ls
+clear
+y
+clear
+ghostty +list-thenes
+ghostty +list-themes
+clear
+ls
+z vue
+vi
+clear
+vi
+tmux
+z nu
+vi
+open .
+z .config
+l
+z nushell/
+l
+open .
+exit
+nvi
+z nvi
+clear
+vi
+clear
+clear
+vi
+z vue
+vi
+z menu
+l
+vi
+clear
+z reci
+vi
+vi
+clear
+vi
+clear
+z bun
+l
+vi
+l
+clear
+exit
+clear
+vi
+z ..
+l
+clear
+gs
+clear
