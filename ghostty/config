@@ -1,1 +1,43 @@
+### font
 font-family = BlexMono Nerd Font
+font-feature = -liga
+font-style = Medium
+
+font-size = 11
+adjust-cell-height = 60%
+adjust-cursor-height = 60%
+
+### appearance
+macos-titlebar-style = hidden
+background-opacity = 0.9
+background-blur-radius = 15
+window-height = 39
+window-width = 211
+window-padding-x = 15
+window-padding-y = 15
+theme = Github Dark
+
+### behaviors
+command = /opt/homebrew/bin/nu
+quit-after-last-window-closed = true
+confirm-close-surface = false
+copy-on-select = true
+macos-auto-secure-input = false
+
+### keyboard
+macos-option-as-alt = true
+keybind = super+backspace=text:\x15
+keybind = super+a=text:\x01
+keybind = super+c=text:\x03
+keybind = super+d=text:\x04
+keybind = super+e=text:\x05
+keybind = super+j=text:\x0a
+keybind = super+k=text:\x0b
+keybind = super+n=text:\x0e
+keybind = super+o=text:\x0f
+keybind = super+p=text:\x10
+keybind = super+r=text:\x12
+keybind = super+u=text:\x15
+keybind = super+w=text:\x17
+keybind = super+shift+c=copy_to_clipboard
+keybind = super+shift+n=new_window
