@@ -16,6 +16,7 @@ set PATH $PATH $GOPATH/bin
 set PATH $PATH $HOME/.pub-cache/bin
 set PATH $PATH $HOME/.development/zig/bin
 set -U fish_user_paths $HOME/.cargo/bin $fish_user_paths
+set XDG_CONFIG_HOME ~/.config
 
 # alias
 alias ls "eza -l --icons"

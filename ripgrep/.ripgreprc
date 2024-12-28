@@ -1,6 +1,7 @@
 --glob=!node_modules/*
 --glob=!OneDrive-nhhao/*
 --glob=!.git/*
+--glob=!.nuxt/*
 
 --hidden
 --ignore-case
