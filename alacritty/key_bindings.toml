@@ -24,9 +24,7 @@ key = "E"
 mods = "Command"
 
 [[keyboard.bindings]]
-chars = """
-
-"""
+chars = "\u000A"
 key = "J"
 mods = "Command"
 
