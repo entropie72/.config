@@ -2,7 +2,9 @@
 font-family = BlexMono Nerd Font
 font-feature = -liga
 font-style = Medium
-
+font-style-bold = Bold
+font-style-italic = Italic
+font-style-bold-italic = Bold Italic
 font-size = 11
 adjust-cell-height = 60%
 adjust-cursor-height = 60%
