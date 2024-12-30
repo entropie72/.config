@@ -5,4 +5,4 @@ nvim/
 fontforge/
 zed/*
 zed/prompts/prompts-library-db.0.mdb/lock.mdb
-
+nushell/history.txt
