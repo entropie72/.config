@@ -2,6 +2,7 @@
 --glob=!OneDrive-nhhao/*
 --glob=!.git/*
 --glob=!.nuxt/*
+--glob=!.obsidian/*
 
 --hidden
 --ignore-case
