@@ -107,6 +107,7 @@ $env.PATH = [
     "/bin"
     "/opt/homebrew/bin"
     "/usr/bin"
+    "/usr/sbin"
     "/Users/hao/.bin"
     "/usr/local/bin"
     "/Users/hao/go/bin"
