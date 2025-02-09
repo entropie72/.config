@@ -25,6 +25,7 @@ quit-after-last-window-closed = true
 confirm-close-surface = false
 copy-on-select = true
 macos-auto-secure-input = false
+auto-update = off
 
 ### keyboard
 macos-option-as-alt = true

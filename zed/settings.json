@@ -17,6 +17,8 @@
   "ui_font_family": "BlexMono Nerd Font",
   "ui_font_weight": 500,
   "ui_font_size": 12,
+  "soft_wrap": "editor_width",
+  // "preferred_line_length": 80,
   "buffer_line_height": {
     "custom": 2.1
   },
